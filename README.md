@@ -5,10 +5,12 @@ Zubeda Newaz
 Hamsira Pathan
 Tenzing Salaka
 Tatiana Zakharov
+
 **App description**
 
 **Idea Proposal**
 Link to our Idea Proposal : https://docs.google.com/document/d/1JynRMUv_ZLwc_UyT4U9QcXKWS25fH6v9/edit
+
 **Calendar**
 
 **Product Backlog**
