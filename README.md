@@ -5,6 +5,8 @@ Zubeda Newaz
 Hamsira Pathan
 Tenzing Salaka
 Tatiana Zakharov
+![image](https://user-images.githubusercontent.com/20289725/156438405-369d2bb3-3bd0-4d03-bd98-d88c5e54262d.png)
+
 
 **App description**
 
