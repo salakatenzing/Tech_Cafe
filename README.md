@@ -59,7 +59,7 @@ https://docs.google.com/spreadsheets/d/1xe1ZhdKVEqigu8fN1XMbvOK1r49E3Tp-IaQc-AQ4
 **Process description**
 
 **Communications**
-
+Discord, Zoom, Github
 **Tools**
 FireBase,
 Android Studio,
