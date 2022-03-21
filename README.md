@@ -33,7 +33,7 @@ https://docs.google.com/spreadsheets/d/1xe1ZhdKVEqigu8fN1XMbvOK1r49E3Tp-IaQc-AQ4
 
 **Sprint 1**
 
-* Sprint planning
+* Sprint planning: https://paceuniversity-my.sharepoint.com/:w:/g/personal/zn63018n_pace_edu/Eb3d1C7foYZBjuqBAFARVikB-0bZrHenF1WkKHeuNIel4Q?e=SWAmFj
 * Scrums
 * Sprint demo - video and apk (or equivalent)
 * Spring retrospective
