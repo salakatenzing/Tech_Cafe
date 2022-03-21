@@ -64,4 +64,6 @@ Discord, Zoom, Github
 **Tools**
 FireBase,
 Android Studio,
-Git
+Git,
+Figma,
+Sketchbook
