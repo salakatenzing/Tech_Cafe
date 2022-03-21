@@ -60,6 +60,7 @@ https://docs.google.com/spreadsheets/d/1xe1ZhdKVEqigu8fN1XMbvOK1r49E3Tp-IaQc-AQ4
 
 **Communications**
 Discord, Zoom, Github
+
 **Tools**
 FireBase,
 Android Studio,
