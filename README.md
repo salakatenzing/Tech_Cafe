@@ -7,7 +7,8 @@ Zubeda Newaz,
 Tenzing Salaka,
 Tatiana Zakharov,
 Tumar Kussainov
-![image](https://user-images.githubusercontent.com/20289725/156438405-369d2bb3-3bd0-4d03-bd98-d88c5e54262d.png)
+![4](https://user-images.githubusercontent.com/69818212/159398201-fd9f2149-8db2-46be-b1ac-5124a7104d6e.png)
+
 
 
 **App description**
