@@ -1,9 +1,9 @@
 **App name**
-TechCafe
+Tech Café
 
 **Team** 
-Zubeda Newaz,
 Hamsira Pathan,
+Zubeda Newaz,
 Tenzing Salaka,
 Tatiana Zakharov,
 Tumar Kussainov
