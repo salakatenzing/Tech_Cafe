@@ -6,6 +6,7 @@
         to view statistics, common interview questions and practice problems for your chosen field.
         Sign up or Log in to get started!</string>
     <string name="name_title">Tech Cafe</string>
+    <string name="button_label_login">Log In</string>
     <color name="beige">#FDF6EC</color>
     <color name="light_brown">#F3E9DD</color>
     <color name="blue">#B7CADB</color>
