@@ -38,8 +38,7 @@ https://docs.google.com/spreadsheets/d/1xe1ZhdKVEqigu8fN1XMbvOK1r49E3Tp-IaQc-AQ4
 **Sprint 1**
 
 * Sprint planning: https://paceuniversity-my.sharepoint.com/:w:/g/personal/zn63018n_pace_edu/Eb3d1C7foYZBjuqBAFARVikB-0bZrHenF1WkKHeuNIel4Q?e=SWAmFj
-* Scrums: 
-* Scrum 1: https://docs.google.com/document/d/15gRKHTkz1k77mzU-j6YbXReMHFQabdd--emoIm3skMQ/edit 
+* Scrums: https://docs.google.com/document/d/15gRKHTkz1k77mzU-j6YbXReMHFQabdd--emoIm3skMQ/edit 
 * Sprint demo - video and apk (or equivalent)
 * Spring retrospective
 
