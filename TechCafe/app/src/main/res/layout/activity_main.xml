@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:fontFamily="sans-serif-light"
-        android:text="@string/mission"
+        android:text="@string/welcome"
         android:textColor="@color/grey"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -45,17 +45,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/_57_1576897_coffee_cup_clip_art_at_clker_com_vector" />
+        app:srcCompat="@drawable/coffee_cup" />
 
 <!-- login button -->
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:backgroundTint="#DAB88B"
-        android:onClick="login"
-        android:text="@string/button_label_login"
+        android:text="@string/login"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -63,13 +62,12 @@
 
     <!-- signUp button -->
     <Button
-        android:id="@+id/button_signUp"
+        android:id="@+id/button_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#DAB88B"
-        android:onClick="signUp"
-        android:text="Sign Up"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:text="@string/signup"
+        app:layout_constraintBottom_toTopOf="@+id/button_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mission_description" />

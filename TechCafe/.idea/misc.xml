@@ -4,7 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_main.xml" value="0.35280797101449274" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.23378558586559783" />
+        <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.19021739130434784" />
+        <entry key="app/src/main/res/layout/activity_login_pagee.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/layout/activity_login_s.xml" value="0.259375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_signin_page.xml" value="0.16802536231884058" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.16802536231884058" />
       </map>
     </option>
   </component>
@@ -13,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

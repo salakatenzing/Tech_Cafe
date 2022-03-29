@@ -6,10 +6,37 @@
         to view statistics, common interview questions and practice problems for your chosen field.
         Sign up or Log in to get started!</string>
     <string name="name_title">Tech Cafe</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="login_logo">Log In</string>
+    <string name="welcome">Welcome</string>
     <string name="button_label_login">Log In</string>
     <color name="beige">#FDF6EC</color>
     <color name="light_brown">#F3E9DD</color>
     <color name="blue">#B7CADB</color>
     <color name="brown">#DAB88B</color>
     <color name="grey">#9D9D9D</color>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_information">"Please enter your information"</string>
+    <string name="create_new_account">Signing Up</string>
+    <string name="email">email</string>
+    <string name="Password">Password</string>
+    <string name="terms_agreement">\tI have read and agree to the Terms and Conditions</string>
+    <string name="register">Register</string>
+    <string name="title_activity_login_page">Log In</string>
+    <string name="or">OR</string>
+    <string name="sign_in">Sign In</string>
+    <string name="log_in">Log In</string>
+    <string name="google_signin">Google SignIn</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="home_page">HOME PAGE</string>
+
 </resources>
