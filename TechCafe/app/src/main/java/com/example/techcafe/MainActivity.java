@@ -2,6 +2,7 @@ package com.example.techcafe;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity {
+    private Button guestButton;
     private FirebaseAuth mAuth;
     //Declaring functional buttons 'onCreate', so they work and contain data, when the app launches.
     @Override
@@ -33,6 +35,19 @@ public class MainActivity extends AppCompatActivity {
         //SignUp Button setup
         Button button_signup = (Button) findViewById(R.id.button_signup);//button name is called, but XML ID is used.
             button_signup.setOnClickListener(view -> openSignUpPage());
+
+        //Guest Button setup
+        guestButton = (Button) findViewById(R.id.button_guest);
+        guestButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent loadHomePage = new Intent(MainActivity.this, home_page.class);
+                MainActivity.this.startActivity(loadHomePage);
+            }
+
+        });
+
+
     }
 
 
