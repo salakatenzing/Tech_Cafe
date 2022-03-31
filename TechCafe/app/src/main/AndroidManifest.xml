@@ -10,13 +10,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TechCafe">
+        android:theme="@style/Theme.TechCafe"
+        android:hardwareAccelerated="false">
+        <activity
+            android:name=".login_page"
+            android:exported="false" />
         <activity
             android:name=".home_page"
             android:exported="false" />
         <activity
             android:name=".signup_page"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">

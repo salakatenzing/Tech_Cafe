@@ -13,7 +13,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity {
-    private Button guestButton;
+//    private Button guestButton;
     private FirebaseAuth mAuth;
     //Declaring functional buttons 'onCreate', so they work and contain data, when the app launches.
     @Override
@@ -37,35 +37,12 @@ public class MainActivity extends AppCompatActivity {
             button_signup.setOnClickListener(view -> openSignUpPage());
 
         //Guest Button setup
-        guestButton = (Button) findViewById(R.id.button_guest);
-        guestButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent loadHomePage = new Intent(MainActivity.this, home_page.class);
-                MainActivity.this.startActivity(loadHomePage);
-            }
+        Button guestButton = (Button) findViewById(R.id.button_guest);
+            guestButton.setOnClickListener(view -> openGuestPage());
 
-        });
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     //________________________________________________________________________________________________________
@@ -78,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
         //SignUpPage open function, when the button is pressed.
         public void openSignUpPage(){
             Intent intent = new Intent(this, signup_page.class);//class is the JAVA file, that calls XML within.
+            startActivity(intent);
+        }
+        public void openGuestPage(){
+            Intent intent = new Intent(this, home_page.class);
             startActivity(intent);
         }
 }
