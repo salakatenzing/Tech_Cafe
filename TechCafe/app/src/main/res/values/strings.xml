@@ -37,7 +37,13 @@
     <string name="google_signin">Google SignIn</string>
     <string name="name">Name</string>
     <string name="password">Password</string>
-    <string name="home_page">HOME PAGE</string>
+    <string name="home_page">Get Started!</string>
     <string name="guest_button">Guest</string>
-
+    <string name="subheader_hp">Click to learn more.</string>
+    <string name="sdev">Software Development</string>
+    <string name="cs">Cybersecurity</string>
+    <string name="ur">UI/UX Research</string>
+    <string name="sdDesc">Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying, and supporting software. Software development can lead to careers in programming, software engineering, and software focussed development. Software development is important because it links and provides new perspectives in the ever-changing world.</string>
+    <string name="csDesc">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. It refers to the body of technologies, processes, and practices designed to protect networks, devices, programs, and data from attack, damage, or unauthorized access. Cybersecurity is important because organizations collect, process, and store unprecedented amounts of data on computers and other devices.</string>
+    <string name="urDesc">UI/UX designing focuses on U - user. The UI aspect focuses on the “user interface” which is essentially the layout of an application. UX focuses on “user experience.” UX works with UI to determine the structure of the interface and the functionality.</string>
 </resources>
