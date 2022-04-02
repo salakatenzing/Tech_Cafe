@@ -16,6 +16,15 @@
             android:name=".login_page"
             android:exported="false" />
         <activity
+            android:name=".sd_US20"
+            android:exported="false" />
+        <activity
+            android:name=".sd_US20"
+            android:exported="false" />
+        <activity
+            android:name=".sd_US20"
+            android:exported="false" />
+        <activity
             android:name=".home_page"
             android:exported="false" />
         <activity
