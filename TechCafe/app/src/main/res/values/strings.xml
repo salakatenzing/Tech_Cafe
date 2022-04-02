@@ -1,4 +1,6 @@
 <resources>
+
+    //Main Activity Strings
     <string name="app_name">Tech Cafe</string>
     <string name="mission">WELCOME</string>
     <string name="description">Tech Cafe is a platform where you can learn and improve your skills
@@ -11,11 +13,15 @@
     <string name="login_logo">Log In</string>
     <string name="welcome">Welcome</string>
     <string name="button_label_login">Log In</string>
+
+    //Color Scheme Strings
     <color name="beige">#FDF6EC</color>
     <color name="light_brown">#F3E9DD</color>
     <color name="blue">#B7CADB</color>
     <color name="brown">#DAB88B</color>
     <color name="grey">#9D9D9D</color>
+
+    //Log in + Sign Up Strings
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -40,10 +46,86 @@
     <string name="home_page">Get Started!</string>
     <string name="guest_button">Guest</string>
     <string name="subheader_hp">Click to learn more.</string>
+
+    //Home Page Strings
     <string name="sdev">Software Development</string>
     <string name="cs">Cybersecurity</string>
     <string name="ur">UI/UX Research</string>
     <string name="sdDesc">Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying, and supporting software. Software development can lead to careers in programming, software engineering, and software focussed development. Software development is important because it links and provides new perspectives in the ever-changing world.</string>
     <string name="csDesc">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. It refers to the body of technologies, processes, and practices designed to protect networks, devices, programs, and data from attack, damage, or unauthorized access. Cybersecurity is important because organizations collect, process, and store unprecedented amounts of data on computers and other devices.</string>
     <string name="urDesc">UI/UX designing focuses on U - user. The UI aspect focuses on the “user interface” which is essentially the layout of an application. UX focuses on “user experience.” UX works with UI to determine the structure of the interface and the functionality.</string>
+
+    //Strings for Software Developement Page
+    <string name="practice_one"> Practice 1</string>
+    <string name="practice_problems"> Skills and Tech</string>
+    <string name="interview_questions">Interview Questions</string>
+    <string name="field">Software Development</string>
+    <string name="stats"> Statistics</string>
+    <string name="salary">Salary</string>
+        //Skills and Tech Button Strings for SD
+    <string name="practice_two_sd">Practice 2</string>
+    <string name="practice_three_sd">Practice 3</string>
+    <string name="practice_four_sd">Practice 4</string>
+    <string name="practice_five_sd">Practice 5</string>
+    <string name="practice_six_sd">Practice 6</string>
+        //Interview Button Strings for SD
+    <string name="interview_one_sd">Resume</string>
+    <string name="interview_two_sd">Technical</string>
+    <string name="interview_three_sd">Experience</string>
+    <string name="interview_4_sd">Behavioral</string>
+    <string name="interview_five_sd">Basics</string>
+    <string name="interview_six_sd">Button</string>
+
+    //strings for Cybersecurity Page
+    <string name="field_cs"> Cybersecurity </string>
+    <string name="stats_cs"> Statistics </string>
+    <string name="practice_one_cs"> Practice 1</string>
+    <string name="practice_problems_cs"> Skills and Tech</string>
+    <string name="interview_questions_cs">Interview Questions</string>
+    <string name="salary_cs">Salary</string>
+        //Skills and Tech Button Strings for CS
+    <string name="practice_two_cs"> Practice 2</string>
+    <string name="practice_three_cs">Practice 3</string>
+    <string name="practice_four_cs">Practice 4</string>
+    <string name="practice_five_cs">Practice 5</string>
+    <string name="practice_six_cs">Practice 6</string>
+        //Interview Button Strings for CS
+    <string name="interview_one_cs">Resume</string>
+    <string name="interview_two_cs">Technical</string>
+    <string name="interview_three_cs">Experience</string>
+    <string name="interview_four_cs">Behavioral</string>
+    <string name="interview_five_cs">Basics</string>
+    <string name="interview_six_cs">Button</string>
+        //Stats Button Strings for CS
+    <string name="stats_two_cs">Button</string>
+    <string name="stats_three_cs">Button</string>
+    <string name="stats_four_cs">Button</string>
+
+    //strings for UR Page
+    <string name="field_ur"> UI/UX </string>
+    <string name="practice_problems_ur"> Skills and Tech</string>
+    <string name="interview_questions_ur">Interview Questions</string>
+    <string name="stats_ur"> Statistics </string>
+        //Skills and Tech Button Strings for UR
+    <string name="practice_one_ur"> Practice 1</string>
+    <string name="practice_two_ur">Practice 2</string>
+    <string name="practice_three_ur">Practice 3</string>
+    <string name="practice_four_ur">Practice 4</string>
+    <string name="practice_five_ur">Practice 5</string>
+    <string name="practice_six_ur">Practice 6</string>
+        //Interview Button Strings for UR
+    <string name="interview_one_ur">Resume</string>
+    <string name="interview_two_ur">Technical</string>
+    <string name="interview_three_ur">Experience</string>
+    <string name="interview_four_ur">Behavioral</string>
+    <string name="interview_five_ur">Basics</string>
+    <string name="interview_six_ur">Button</string>
+        //Stats Button Strings for UR
+    <string name="salary_ur">Salary</string>
+    <string name="stats_two_ur">Button</string>
+    <string name="stats_three_ur">Button</string>
+    <string name="stats_four_ur">Button</string>
+
+
+
 </resources>

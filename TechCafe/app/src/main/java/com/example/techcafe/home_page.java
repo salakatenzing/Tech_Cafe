@@ -31,5 +31,29 @@ public class home_page extends AppCompatActivity {
 
 
         });
+
+        cs = (Button) findViewById(R.id.cs);
+        cs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent loadUS20 = new Intent(home_page.this, cs_US20.class);
+                home_page.this.startActivity(loadUS20);
+            }
+
+
+        });
+
+        ur = (Button) findViewById(R.id.ur);
+        ur.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent loadUS20 = new Intent(home_page.this, ur_US20.class);
+                home_page.this.startActivity(loadUS20);
+            }
+
+
+        });
+
+
     }
 }
