@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".sd_US20">
 
+<<<<<<< HEAD
+=======
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="170dp"
+        android:layout_height="185dp"
+        android:text="US20"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="281dp" />
+>>>>>>> main
 </androidx.constraintlayout.widget.ConstraintLayout>
