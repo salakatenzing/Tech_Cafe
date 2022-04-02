@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
         Button button_signup = (Button) findViewById(R.id.button_signup);//button name is called, but XML ID is used.
         button_signup.setOnClickListener(view -> openSignUpPage());
 
+        //Guest Button setup
+        Button guest_login = (Button) findViewById(R.id.button_guest);
+        guest_login.setOnClickListener(view -> openGuestPage());
+
     }
     //________________________________________________________________________________________________________
         //LogInPage open function, when the button is pressed.
