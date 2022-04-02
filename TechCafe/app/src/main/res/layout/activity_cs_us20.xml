@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <HorizontalScrollView
-        android:id="@+id/horizontalScrollView"
+        android:id="@+id/horizontalScrollView4"
         android:layout_width="412dp"
         android:layout_height="168dp"
         android:layout_marginStart="16dp"
@@ -23,94 +23,94 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/button17"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/practice_one" />
+                android:text="@string/practice_one_cs" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button18"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/practice_two_sd" />
+                android:text="@string/practice_two_cs" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button19"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/practice_three_sd" />
+                android:text="@string/practice_three_cs" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button20"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/practice_four_sd" />
+                android:text="@string/practice_four_cs" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button21"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/practice_five_sd" />
+                android:text="@string/practice_five_cs" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/button22"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/practice_six_sd" />
+                android:text="@string/practice_six_cs" />
         </LinearLayout>
     </HorizontalScrollView>
 
     <TextView
-        android:id="@+id/learning"
+        android:id="@+id/learning_cs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="228dp"
         android:color="@color/grey"
-        android:text="@string/practice_problems"
+        android:text="@string/practice_problems_cs"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/field"
+        app:layout_constraintTop_toBottomOf="@+id/field_cs"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/interview_questions"
+        android:id="@+id/interview_questions_cs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:color="@color/grey"
-        android:text="@string/interview_questions"
+        android:text="@string/interview_questions_cs"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView2"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView4"
         app:layout_constraintVertical_bias="0.742" />
 
     <HorizontalScrollView
-        android:id="@+id/horizontalScrollView2"
+        android:id="@+id/horizontalScrollView5"
         android:layout_width="407dp"
         android:layout_height="173dp"
         android:layout_marginStart="16dp"
@@ -125,70 +125,70 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/button23"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/interview_one_sd" />
+                android:text="@string/interview_one_cs" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/button24"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/interview_two_sd" />
+                android:text="@string/interview_two_cs" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/button25"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/interview_three_sd" />
+                android:text="@string/interview_three_cs" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/button26"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/interview_4_sd" />
+                android:text="@string/interview_four_cs" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/button27"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/interview_five_sd" />
+                android:text="@string/interview_five_cs" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/button28"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/interview_six_sd" />
+                android:text="@string/interview_six_cs" />
 
 
         </LinearLayout>
     </HorizontalScrollView>
 
     <TextView
-        android:id="@+id/field"
+        android:id="@+id/field_cs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:color="@color/grey"
-        android:text="@string/field"
+        android:text="@string/field_cs"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -197,21 +197,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/stats"
+        android:id="@+id/stats_cs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:color="@color/grey"
-        android:text="@string/stats"
+        android:text="@string/stats_cs"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView3"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView5"
         app:layout_constraintVertical_bias="0.392" />
 
     <HorizontalScrollView
-        android:id="@+id/horizontalScrollView3"
+        android:id="@+id/horizontalScrollView6"
         android:layout_width="407dp"
         android:layout_height="173dp"
         android:layout_marginStart="16dp"
@@ -226,40 +226,40 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/button29"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="@string/salary" />
+                android:text="@string/salary_cs" />
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/button30"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="Button" />
+                android:text="@string/stats_two_cs" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/button31"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="Button" />
+                android:text="@string/stats_three_cs" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/button32"
                 android:layout_width="140dp"
                 android:layout_height="128dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue"
-                android:text="Button" />
+                android:text="@string/stats_four_cs" />
         </LinearLayout>
     </HorizontalScrollView>
 
