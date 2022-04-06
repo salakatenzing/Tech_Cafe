@@ -45,7 +45,7 @@ https://docs.google.com/spreadsheets/d/1xe1ZhdKVEqigu8fN1XMbvOK1r49E3Tp-IaQc-AQ4
 **Sprint 2**
 
 * Sprint planning: https://docs.google.com/document/d/11YIo4aJPajL375Ee1qfVbM-4Qyp-XUCsu9oQL2Jv_yE/edit
-* Scrums
+* Scrums: https://docs.google.com/document/d/10q8Rx1JmVXiBvXc_-lOdRrIrjTxZNc3d4JobjQUuEfw/edit#heading=h.hpblccoxcnrh
 * Sprint demo - video and apk (or equivalent)
 * Spring retrospective
 
