@@ -1,4 +1,4 @@
-package com.example.techcafe;
+package com.example.techcafe1;
 
 import org.junit.Test;
 

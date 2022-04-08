@@ -45,6 +45,35 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:1082123524963:android:71896210df2c116ff75156",
+        "android_client_info": {
+          "package_name": "com.example.techcafe1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082123524963-fsp3bo8dvl5nnvv5bnlvaq99n3blq6an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoDM4zF0HfAz2G2YwIXuEmacFzBGR4CyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082123524963-fsp3bo8dvl5nnvv5bnlvaq99n3blq6an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:1082123524963:android:535e4c26e3084460f75156",
         "android_client_info": {
           "package_name": "com.techcafe"
