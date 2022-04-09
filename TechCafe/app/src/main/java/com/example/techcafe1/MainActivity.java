@@ -61,8 +61,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Welcome Back!", Toast.LENGTH_LONG).show();
             startActivity(new Intent(this, HomePage.class));
 
-        } else {
-            Toast.makeText(this, "New User", Toast.LENGTH_LONG).show();
         }
 
     }
