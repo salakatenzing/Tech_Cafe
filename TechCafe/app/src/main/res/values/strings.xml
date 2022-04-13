@@ -18,4 +18,58 @@
     <string name="enter_account_information">Enter account information</string>
     <string name="sign_out">Sign Out</string>
     <string name="explore_topics">Explore Topics</string>
+
+    //UI/UX Page strings
+
+    <string name="sd_stat_name">Statistics</string>
+    <string name="bottom_stat_sd">Check Stat</string>
+    <string name="sd_skills">Skills and Tech</string>
+    <string name="sd_topic_2">Topic</string>
+    <string name="sd_topic_3">Topic</string>
+    <string name="sd_topic_4">Topic</string>
+    <string name="sd_topic_5">Topic</string>
+    <string name="sd_topic_6">Topic</string>
+    <string name="sd_topic_7">Topic</string>
+
+
+    //Software Dev strings
+    <string name="sd_interview">Interview Practice</string>
+    <string name="sd_topic_1">Interview Practice</string>
+    <string name="sd_topic_8">Topic</string>
+    <string name="sd_topic_9">Topic</string>
+
+    //SD Skill 1
+    <string name="sd_skill1">Software Development</string>
+    <string name="sd_lang_skill">Language </string>
+    <string name="sd_lang_1">Java</string>
+    <string name="sd_lang_2">C++</string>
+    <string name="sd_lang_3">HTML</string>
+    <string name="sd_lang_res">According to </string>
+
+    //SD Skill 2
+    <string name="sd_database_skill">Database</string>
+    <string name="sd_database_1">Skill 1 </string>
+    <string name="sd_database_2">Skill 2</string>
+    <string name="sd_database_3">Skill 3</string>
+
+    //SD Skill 3
+    <string name="sd_datastruc_skill">Data Structure</string>
+    <string name="sd_datastruc_1">Skill 1 </string>
+    <string name="sd_datastruc_2">Skill 2</string>
+    <string name="sd_datastruc_3">Skill 3</string>
+
+    //SD Skill 4
+    <string name="sd_algo_skill">Algorithms</string>
+    <string name="sd_algo_1">Skill 1 </string>
+    <string name="sd_algo_2">Skill 2</string>
+    <string name="sd_algo_3">Skill 3</string>
+
+    //SD Skill 5
+    <string name="sd_testing_skill">Testing</string>
+    <string name="sd_testing_1">Skill 1 </string>
+    <string name="sd_testing_2">Skill 2</string>
+    <string name="sd_testing_3">Skill 3</string>
+
+
+
 </resources>
