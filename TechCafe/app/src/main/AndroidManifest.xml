@@ -37,6 +37,25 @@
             android:name=".RegisterPage"
             android:exported="false" />
         <activity
+            android:name=".SD_Skill_1"
+            android:exported="false" />
+        <activity
+            android:name=".SD_Skill_2"
+            android:exported="false" />
+        <activity
+            android:name=".SD_Skill_3"
+            android:exported="false" />
+        <activity
+            android:name=".SD_Skill_4"
+            android:exported="false" />
+        <activity
+            android:name=".SD_Skill_5"
+            android:exported="false" />
+        <activity
+        android:name=".CS_Skill_1"
+        android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Techcafe1"
