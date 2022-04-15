@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Techcafe1">
         <activity
+            android:name=".MissionStatement"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".UI_UXPage"
             android:exported="false" />
         <activity
@@ -52,11 +58,10 @@
             android:name=".SD_Skill_5"
             android:exported="false" />
         <activity
-        android:name=".CS_Skill_1"
-        android:exported="false" />
-
+            android:name=".CS_Skill_1"
+            android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.Techcafe1"
             android:windowSoftInputMode="adjustPan">
