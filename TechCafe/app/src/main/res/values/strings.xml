@@ -17,6 +17,7 @@
     <string name="homepage">HomePage</string>
     <string name="enter_account_information">Enter account information</string>
     <string name="sign_out">Sign Out</string>
+<<<<<<< Updated upstream
     <string name="explore_topics">Explore Topics</string>
 
     //UI/UX Page strings
@@ -72,4 +73,257 @@
 
 
 
+=======
+
+    Check//SD Screening Interview Questions
+    <string name="sdscreeningq1">"Tell me about yourself."</string>
+    <string name="sdscreeningq2">"Why should we hire you for this position?"</string>
+    <string name="sdscreeningq3">"What projects are you currently working on?"</string>
+    <string name="sdscreeningq4">"Where do you see yourself in five years?"</string>
+    <string name="sdscreeningq5">"What programming languages are you proficient in?"</string>
+    <string name="sdscreeningq6">"Why are you interested in this position? Why do you want this job?"</string>
+    <string name="sdscreeningq7">"Explain how your background/experiences is relevant to this position."</string>
+    <string name="sdscreeningq8">"What do you know about [company name]?"</string>
+
+    Check//SD Experience Interview Questions
+    <string name="sdexperienceq1">"Tell me about a tough software development problem and how you solved it."</string>
+    <string name="sdexperienceq2">"What obstacles have you run into in a software development project, and how did you deal with them?"</string>
+    <string name="sdexperienceq3">"What is your process to test and find bugs in an application?"</string>
+    <string name="sdexperienceq4">"Tell me about a time you received feedback on a task."</string>
+    <string name="sdexperienceq5">"Tell me about a time when you faced a problem/bug with a project. How did you solve it? What did you learn?"</string>
+    <string name="sdexperienceq6">"What type of people do you not work well with?"</string>
+    <string name="sdexperienceq7">"What’s the most important thing to look for or check when reviewing another team member’s code?"</string>
+    <string name="sdexperienceq8">"What do you find are the most difficult decisions to make? What was the most difficult decision you ever had to make on the job?"</string>
+    <string name="sdexperienceq9">"Tell me about a time you were overwhelmed by the amount of work on your agenda. How did you handle it?"</string>
+    <string name="sdexperienceq10">"If you have multiple projects on your plate, how do you handle completing them on time?"</string>
+    <string name="sdexperienceq11">"Give me an example of a time when you set a goal and were able to meet or achieve it."</string>
+    <string name="sdexperienceq12">"Tell me about a time you failed. Talk about a time you faced a setback on a project, and how you dealt with it."</string>
+    <string name="sdexperienceq13">"Tell me about a time you were under a lot of pressure. How did you handle it?"</string>
+    <string name="sdexperienceq14">"Explain an idea that you have had and have then implemented in practice. What was the best idea you implemented in your last job?"</string>
+    <string name="sdexperienceq15">"Have you ever disagreed with a decision your boss made? How did you handle it?"</string>
+    <string name="sdexperienceq16">"Tell me about a time you completed a project and your customer didn’t like it. How did you handle it?"</string>
+    <string name="sdexperienceq17">"Tell me about a mistake you made while working as a software developer. How did you handle it?"</string>
+    <string name="sdexperienceq18">"The field of software development is always changing. How do you go about staying on top of it?"</string>
+    <string name="sdexperienceq19">"How do you ensure an application is bug-free?"</string>
+    <string name="sdexperienceq20">"Tell me about a time you helped out a team member."</string>
+    <string name="sdexperienceq21">"Talk about a project you completed successfully. Talk about a project you’ve worked on that you’re most proud of, and what you did that worked well."</string>
+    <string name="sdexperienceq22">"What has your experience been like as part of an agile software development process, if any?"</string>
+
+    //SD Coding Assessment Example Questions (Hackerrank)
+    <string name="sdcodingq1">"Plus Minus- Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with 6 places after the decimal.
+Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to  are acceptable."</string>
+    <string name="sdcodingq2">"Minus-Max Sum- Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers."</string>
+    <string name="sdcodingq3">"Time Conversion- Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
+Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock."</string>
+    <string name="sdcodingq4">"Sparse Arrays- There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings. Return an array of the results."</string>
+    <string name="sdcodingq5">"Minimum Streets Lights- Street Lights are installed at every position along a 1-D road of length n. Locations[] (an array) represents the coverage limit of these lights. The ith light has a coverage limit of locations[i] that can range from the position max((i – locations[i]), 1) to min((i + locations[i]), n ) (Closed intervals). Initially all the lights are switched off. Find the minimum number of fountains that must be switched on to cover the road."</string>
+
+    //SD Coding Assessments Header+Subheader
+    <string name="sdcodinghead">"Coding Assessments"</string>
+    <string name="sdcodingsubhead">"Coding assessments are a set of standardised questions, challenges or problems given to developers in order to ascertain their skill level."</string>
+
+    Check//SD Technical Interview Questions
+    <string name="sdtechnicalq1">"Explain the various types of software systems."</string>
+    <string name="sdtechnicalq2">"How does a computer program differ from computer software?"</string>
+    <string name="sdtechnicalq3">"Explain the differences between function-oriented design and object-oriented design."</string>
+    <string name="sdtechnicalq4">"What are the main phases in the software development lifecycle (SDLC)?"</string>
+    <string name="sdtechnicalq5">"Name some of the popular SDLC models."</string>
+    <string name="sdtechnicalq6">"Explain the 'verification' and 'validation' processes in software development."</string>
+    <string name="sdtechnicalq7">"Explain the role of 'debugging' in the software development process."</string>
+    <string name="sdtechnicalq8">"List a few programming languages suitable for writing algorithms."</string>
+    <string name="sdtechnicalq9">"How do you find the size of a software product?"</string>
+    <string name="sdtechnicalq10">"What is “Software Configuration Management”?"</string>
+    <string name="sdtechnicalq11">"Explain the importance of the 'Agile' methodology in software development."</string>
+    <string name="sdtechnicalq12">"How do functional requirements differ from non-functional requirements (NFRs)?"</string>
+    <string name="sdtechnicalq13">"What does a runtime environment do?"</string>
+    <string name="sdtechnicalq14">"Explain the importance of metrics in software development with examples."</string>
+    <string name="sdtechnicalq15">"Explain the concept of concurrency in software applications."</string>
+    <string name="sdtechnicalq16">"What are the advantages of object-oriented programming (OOP)?"</string>
+
+    Check//SD Java Technical Interview Questions
+    <string name="sdjavaq1">"What is inheritance?"</string>
+    <string name="sdjavaq2">"Explain public static void main(String args[])."</string>
+    <string name="sdjavaq3">"What is an object?"</string>
+    <string name="sdjavaq4">"What is object cloning in Java?"</string>
+    <string name="sdjavaq5">"What are the differences between vectors and arrays?"</string>
+    <string name="sdjavaq6">"Since Java has a garbage collection feature, does this mean your program can never run out of memory?"</string>
+    <string name="sdjavaq7">"What is an abstract class? Why are they useful and when would you use one?"</string>
+    <string name="sdjavaq8">"What is ‘method overriding’ in Java?"</string>
+    <string name="sdjavaq9">"What is the finalize()?"</string>
+    <string name="sdjavaq10">"What’s the difference between unit, integration and functional testing?"</string>
+    <string name="sdjavaq11">"What is the difference between factory and abstract factory pattern?"</string>
+    <string name="sdjavaq12">"What’s the difference between path and classpath variables in Java?"</string>
+    <string name="sdjavaq13">"Can we override the equals () method in Java?"</string>
+    <string name="sdjavaq14">"What is the difference between arraylist and linkedlist?"</string>
+    <string name="sdjavaq15">"What is the difference between list data structure and set data structure?"</string>
+    <string name="sdjavaq16">"What is the difference between == and .equals()?"</string>
+
+    //SD Java Header+Subheader
+    <string name="sdjavahead">"Java"</string>
+    <string name="sdjavasubhead">"Java is a high-level, class-based, object-oriented programming language and interviewers may ask technical questions if the job requires you to know this skill."</string>
+
+    Check//SD JavaScript Technical Interview Questions
+    <string name="sdjsq1">"What is JavaScript?"</string>
+    <string name="sdjsq2">"What are the JavaScript Data Types?"</string>
+    <string name="sdjsq3">"Describe the difference between undeclared and undefined variables."</string>
+    <string name="sdjsq4">"Describe what ’dynamic typing‘ means for JavaScript."</string>
+    <string name="sdjsq5">"Explain JavaScript callback functions."</string>
+    <string name="sdjsq6">"What values are falsy?"</string>
+    <string name="sdjsq7">"What is the difference between == and ===?"</string>
+    <string name="sdjsq8">"How do you explain closures in JavaScript? When are they used?"</string>
+
+    Check//SD ReactJS Technical Interview Questions
+    <string name="sdreactjsq1">"Briefly describe ReactJS in one or two sentences."</string>
+    <string name="sdreactjsq2">"List some advantages and limitations of ReactJS?"</string>
+    <string name="sdreactjsq3">"Explain what the Virtual DOM is in ReactJS and why it is necessary."</string>
+    <string name="sdreactjsq4">"What is JSX? How does it relate to ReactJS?"</string>
+    <string name="sdreactjsq5">"What are components in React?"</string>
+    <string name="sdreactjsq6">"What does render() do?"</string>
+    <string name="sdreactjsq7">"What is the children prop?"</string>
+    <string name="sdreactjsq8">"Can you describe the React Component lifecycle? When you should make an asynchronous call?"</string>
+    <string name="sdreactjsq9">"What is React Portal and React Fragment? What problems do they solve?"</string>
+    <string name="sdreactjsq10">"What is React Reconciliation? How do you avoid performance issues?"</string>
+    <string name="sdreactjsq11">"What is the ’PropTypes‘ library?"</string>
+
+    //SD ReactJS Header+Subheading
+    <string name="sdreactjshead">"ReactJS"</string>
+    <string name="sdreactjssubhead">"React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. Interviewers may ask technical questions if the job requires you to know this skill."</string>
+
+    Check//SD SQL Technical Interview Questions
+    <string name="sdsqlq1">"What is SQL?"</string>
+    <string name="sdsqlq2">"Explain the differences between DBMS and RDBMS."</string>
+    <string name="sdsqlq3">"How would get data from multiple tables?"</string>
+    <string name="sdsqlq4">"What is a 'Primary Key' in an SQL database?"</string>
+    <string name="sdsqlq5">"What is a 'Foreign Key' in a SQL database?"</string>
+    <string name="sdsqlq6">"What is an index in an RDBMS?"</string>
+    <string name="sdsqlq7">"How do you retrieve columns in SQL?"</string>
+    <string name="sdsqlq8">"What is a stored procedure in the context of SQL?"</string>
+    <string name="sdsqlq9">"Explain how the WHERE clause in SQL works."</string>
+    <string name="sdsqlq10">"What is 'normalization' in an RDBMS?"</string>
+    <string name="sdsqlq11">"What is a 'NULL value' in an RDBMS table?"</string>
+    <string name="sdsqlq12">"Explain the concept of a subquery in SQL."</string>
+    <string name="sdsqlq13">"What is a unique key in SQL?"</string>
+    <string name="sdsqlq14">"What is an alias in SQL?"</string>
+    <string name="sdsqlq15">"Which SQL statement should you use to create an RDBMS table?"</string>
+    <string name="sdsqlq16">"How can you test for the NULL value in an RDBMS?"</string>
+
+    //SD SQL Header+Subheading
+    <string name="sdsqlhead">"SQL"</string>
+    <string name="sdsqlsubhead">"Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them. Interviewers may ask technical questions if the job requires you to know this skill."</string>
+
+    Check//SD Python Technical Interview Questions
+    <string name="sdpythonq1">"Which standard data types does Python support?"</string>
+    <string name="sdpythonq2">"What is Tuple in Python?"</string>
+    <string name="sdpythonq3">"Explain 'PEP 8' in the context of Python language."</string>
+    <string name="sdpythonq4">"What is 'Flask'?"</string>
+    <string name="sdpythonq5">"Explain the key differences between Python 2 and Python 3."</string>
+    <string name="sdpythonq6">"Explain a 'list comprehension' in Python."</string>
+    <string name="sdpythonq7">"What is 'Pythonpath'?"</string>
+    <string name="sdpythonq8">"Mention the key differences between 'range()' and 'xrange()' in Python."</string>
+    <string name="sdpythonq9">"Explain 'positive indexes' and 'negative indexes' in Python."</string>
+    <string name="sdpythonq10">"What is a 'Python function'?"</string>
+    <string name="sdpythonq11">"Explain the utility of the 'dict()' function in Python."</string>
+    <string name="sdpythonq12">"How does the 'false' keyword in Python work?"</string>
+    <string name="sdpythonq13">"Explain the key difference between a 'list' and a 'tuple' in Python."</string>
+    <string name="sdpythonq14">"Explain how to reverse a list in Python."</string>
+    <string name="sdpythonq15">"What does the 'append' method do in Python?"</string>
+    <string name="sdpythonq16">"Explain how indentation is done in Python code."</string>
+    <string name="sdpythonq17">"How to convert all of the characters in a Python string to lowercase?"</string>
+    <string name="sdpythonq18">"How to convert an integer to a string in Python?"</string>
+    <string name="sdpythonq19">"Which Python data type allows decimal values?"</string>
+    <string name="sdpythonq20">"What does the Python 'hex()' function do?"</string>
+    <string name="sdpythonq21">"What are the numeric data types in Python?"</string>
+
+    //SD Python Header+Subheading
+    <string name="sdpythonhead">"Python"</string>
+    <string name="sdpythonsubhead">"Python is a high-level, general-purpose programming language often used to build websites and software, automate tasks, and conduct data analysis. Interviewers may ask technical questions if the job requires you to know this skill."</string>
+
+    //SD Screening Header+Subheading
+    <string name="sdhead">Screening Questions</string>
+    <string name="sdsubhead">Phone interviews are typically called screenings because the employers are screening candidates. These interviews are short, usually less than 30 minutes and may be as short as 10 minutes. The goal is to get an invitation to continue through the interview process.</string>
+
+    //SD Experience Header+Subheading
+    <string name="sdhead2">"Experience Questions</string>
+    <string name="sdsubhead2">"In an experience-based interview, the interviewee answers questions about his or her actions in a past employment situation. The interviewee demonstrates his or her skills and abilities by describing past achievements or experiences."</string>
+
+    //SD JavaScript Header+Subheading
+    <string name="sdjshead">"JavaScript"</string>
+    <string name="sdjssubhead">"JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Interviewers may ask technical questions if the job requires you to know this skill."</string>
+
+    Check//CS Screening Questions
+    <string name="csscreeningq1">"Tell me about yourself."</string>
+    <string name="csscreeningq2">"Why should we hire you for this position?"</string>
+    <string name="csscreeningq3">"Why do you want to work here?"</string>
+    <string name="csscreeningq4">"Where do you see yourself in five years?"</string>
+    <string name="csscreeningq5">"How are your skills a match for this job?"</string>
+    <string name="csscreeningq6">"Why are you interested in this position? Why do you want this job?"</string>
+    <string name="csscreeningq7">"Explain how your background/experiences is relevant to this position."</string>
+    <string name="csscreeningq8">"What do you know about [company name]?"</string>
+
+    //CS Screening Header+Subheading
+    <string name="cshead">Screening Questions</string>
+    <string name="cssubhead">Phone interviews are typically called screenings because the employers are screening candidates. These interviews are short, usually less than 30 minutes and may be as short as 10 minutes. The goal is to get an invitation to continue through the interview process.</string>
+
+    //CS Technical Header+Subheading
+    <string name="cstechhead">"Technical Questions"</string>
+    <string name="cstechsubhead">"A technical interview is a technical problem-based job interview technique to assess potential employees.</string>
+
+    Check//CS Technical Interview Questions
+    <string name="cstechnicalq1">"What is the difference between a threat, a vulnerability, and a risk?"</string>
+    <string name="cstechnicalq2">"What is cryptography?"</string>
+    <string name="cstechnicalq3">"What is a firewall? How do you set it up?"</string>
+    <string name="cstechnicalq4">"What is shoulder surfing?"</string>
+    <string name="cstechnicalq5">"What do you mean by XSS?"</string>
+    <string name="cstechnicalq6">"Is encryption different from hashing?"</string>
+    <string name="cstechnicalq7">"What do you mean by a VPN?"</string>
+    <string name="cstechnicalq8">"Define botnet. Is it crucial in cybersecurity?"</string>
+    <string name="cstechnicalq9">"Explain a three-way handshake."</string>
+    <string name="cstechnicalq10">"What are the response codes that can be received from a web application?"</string>
+    <string name="cstechnicalq11">"Define traceroute."</string>
+    <string name="cstechnicalq12">"What Is referred to as a man-in-the-middle attack?"</string>
+    <string name="cstechnicalq13">"What Is data leakage?"</string>
+    <string name="cstechnicalq14">"What are cyberattacks? Name the most common ones."</string>
+    <string name="cstechnicalq15">"What is the difference between symmetric and asymmetric encryption?"</string>
+    <string name="cstechnicalq16">"What is the difference between IDS and IPS?"</string>
+    <string name="cstechnicalq17">"Explain CIA triad."</string>
+
+    Check//UI/UX Behavioral Interview Questions
+    <string name="uiuxbehavioralq1">"Tell me about yourself."</string>
+    <string name="uiuxbehavioralq2">"Describe a time when you had to work with someone difficult and how you overcame it."</string>
+    <string name="uiuxbehavioralq3">"Why do you want to work for this company?"</string>
+    <string name="uiuxbehavioralq4">"What are your strengths and weaknesses as a designer?"</string>
+    <string name="uiuixbehavioralq5">"Briefly describe the project background, and elaborate on your role and contribution."</string>
+
+    Check//UX/UI Technical Interview Questions
+    <string name="uxuitechnicalq1">"Pick a application you like/dislike and explain why."</string>
+    <string name="uxuitechnicalq2">"What are your thoughts on user experience research and how it can be used to improve designs?"</string>
+    <string name="uxuitechnicalq3">"What are some of the most successful projects you’ve worked on in the past? Can you share any insights on how user experience research played a role in their success?"</string>
+    <string name="uxuitechnicalq4">"Tell us about a time when you had to go against the wishes of the customer or team to maintain the user experience."</string>
+    <string name="uxuitechnicalq5">"What do you consider to be the most important aspect of user experience research?"</string>
+    <string name="uxuitechnicalq6">"What experience do you have with user interviews? Can you share tips on how to make the most of them?"</string>
+    <string name="uxuitechnicalq7">"How do you incorporate user feedback into your designs?"</string>
+    <string name="uxuitechnicalq8">"Do you have any thoughts on user testing? What are some of the advantages of conducting tests early and often during the design process?"</string>
+    <string name="uxuitechnicalq9">"Do you think that user experience research is necessary for each project? Why or why not?"</string>
+    <string name="uxuitechnicalq10">"What do you think is the most important thing to bear in mind when conducting user research?"</string>
+    <string name="uxuitechnicalq11">"Are there tools or methods that you find particularly useful in user research?"</string>
+    <string name="uxuitechnicalq12">"Are there projects you have worked on in the past that you think would be particularly relevant to this role?"</string>
+    <string name="uxuitechnicalq13">"Please describe what your design process is?"</string>
+    <string name="uxuitechnicalq14">"What is the most difficult task you have encountered when doing UI design?"</string>
+
+    //UI/UX Technical Header+Subheading
+    <string name="uiuxtechhead">"Technical Questions"</string>
+    <string name="uiuxtechsubhead">"A technical interview is a technical problem-based job interview technique to assess potential employees.</string>
+    //UI/UX Behavioral Header+Subheading
+    <string name="uiuxhead">Behavioral Questions</string>
+    <string name="uiuxsubhead">"Behavioral interviews allow the interviewer to get a much better understanding of you as a candidate."</string>
+    <string name="title_activity_sdexperience">sdexperience</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+>>>>>>> Stashed changes
 </resources>

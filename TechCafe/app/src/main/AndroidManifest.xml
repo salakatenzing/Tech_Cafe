@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Techcafe1">
         <activity
+<<<<<<< Updated upstream
             android:name=".UI_UXPage"
             android:exported="false" />
         <activity
@@ -23,6 +24,17 @@
             android:exported="false" />
         <activity
             android:name=".ProfilePage"
+=======
+            android:name=".sdexperience2"
+            android:exported="false" />
+        <activity
+            android:name=".sdexperience"
+            android:exported="false"
+            android:label="@string/title_activity_sdexperience"
+            android:theme="@style/Theme.Techcafe1.NoActionBar" />
+        <activity
+            android:name=".sdscreening"
+>>>>>>> Stashed changes
             android:exported="false" />
         <activity
             android:name=".HomePage"
@@ -58,7 +70,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
+<<<<<<< Updated upstream
             android:theme="@style/Theme.Techcafe1"
+=======
+            android:theme="@style/Theme.App.Starting"
+>>>>>>> Stashed changes
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
