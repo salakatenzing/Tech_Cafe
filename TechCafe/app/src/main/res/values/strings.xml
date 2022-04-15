@@ -70,6 +70,11 @@
     <string name="sd_testing_2">Skill 2</string>
     <string name="sd_testing_3">Skill 3</string>
 
+    //Mission Statement
 
+    <string name="mission_statement">Tech Cafe is a platform where you can learn and improve your skills
+        within a specific computer science field. Using this app will give you the chance
+        to view statistics, common interview questions and practice problems for your chosen field.
+        Sign up or Log in to get started!</string>
 
 </resources>
