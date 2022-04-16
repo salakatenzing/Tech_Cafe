@@ -6,31 +6,110 @@
     android:layout_height="match_parent"
     tools:context=".ProfilePage">
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ProfilePage"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/button_signout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="237dp"
-        android:text="@string/sign_out"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="31dp">
+
+        <Button
+            android:id="@+id/prof_backButton_id"
+            android:layout_width="410dp"
+            android:layout_height="68dp"
+            android:gravity="left"
+            android:text="@string/backButton"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <ImageButton
+            android:id="@+id/prof_userImage_id"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:src="@drawable/profile_pic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_name"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/prof_editUserName_id"
+            android:layout_width="148dp"
+            android:layout_height="45dp"
+            android:background="@android:color/transparent"
+            android:text="@string/edit_userName"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/prof_passSetting_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:text="@string/password_setting"
+            android:textColor="@color/user_profile_picture_background"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:text="@string/notify"
+            android:textColor="@color/user_profile_picture_background"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:text="@string/activity"
+            android:textColor="@color/user_profile_picture_background"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+        <Button
+            android:id="@+id/button_signout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="159dp"
+            android:layout_marginEnd="147dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/sign_out"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            tools:ignore="TextContrastCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
