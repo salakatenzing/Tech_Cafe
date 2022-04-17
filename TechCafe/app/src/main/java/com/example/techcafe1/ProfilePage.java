@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -12,6 +13,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class ProfilePage extends AppCompatActivity {
     Button user_logout_button;
+    Button backButton;
     FirebaseAuth mAuth;
 
     @Override
@@ -32,6 +34,14 @@ public class ProfilePage extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
         });
 
+        Button backButton = (Button) findViewById(R.id.prof_backButton_id);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               openHomeScreen();
+            }
+        });
+
 
     }
     @Override
@@ -42,5 +52,10 @@ public class ProfilePage extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity.class);//class is the JAVA file, that calls XML within.
             startActivity(intent);
         }
+    }
+
+    public void openHomeScreen() {
+        Intent intent = new Intent(this, HomePage.class);
+        startActivity(intent);
     }
 }

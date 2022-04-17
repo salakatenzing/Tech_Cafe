@@ -32,8 +32,7 @@
             android:adjustViewBounds="false"
             android:baselineAlignBottom="false"
             android:contentDescription="@string/splash_moto"
-            android:scaleType="center"
-            app:srcCompat="@drawable/ic_launcher_foreground"
+            app:srcCompat="@drawable/ic_tech_cafe_white"
             tools:ignore="ImageContrastCheck" />
 
         <TextView
