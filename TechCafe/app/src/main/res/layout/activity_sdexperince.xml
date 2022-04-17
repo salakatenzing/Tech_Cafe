@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SDExperince"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:layout_width="384dp"
+            android:layout_height="76dp"
+            android:fontFamily="@font/avenir_heavy"
+            android:text="@string/sdhead2"
+            android:textColor="#E3A55E"
+            android:textSize="25sp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="385dp"
+            android:layout_height="114dp"
+            android:background="@drawable/field_info_block"
+            android:fontFamily="@font/avenir_normal"
+            android:text="@string/sdsubhead2"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="106dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq18"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="923dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq14"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="833dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq9"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="981dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq11"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="1036dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq13"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="1095dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq15"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="1152dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq16"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="1213dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq17"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="1278dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq20"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="1344dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq21"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1404dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq22"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq4"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq8"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq12"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq19"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq10"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq3"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="379dp"
+            android:layout_height="61dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq2"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="379dp"
+            android:layout_height="65dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq5"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq6"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="379dp"
+            android:layout_height="39dp"
+            android:background="@drawable/block_topics_top"
+            android:text="@string/sdexperienceq7"
+            android:textColor="#607D8B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="1463dp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+    </LinearLayout>
+</ScrollView>
