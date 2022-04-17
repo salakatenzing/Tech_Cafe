@@ -26,7 +26,7 @@
     <string name="sd_skills">Skills and Tech</string>
     <string name="sd_topic_2">Topic</string>
     <string name="sd_topic_3">Topic</string>
-    <string name="sd_topic_4">Topic</string>
+    <string name="sd_topic_4">Top S.D Languages</string>
     <string name="sd_topic_5">Topic</string>
     <string name="sd_topic_6">Topic</string>
     <string name="sd_topic_7">Topic</string>
@@ -85,5 +85,6 @@
     <string name="activity">activity</string>
     <string name="backButton">back</string>
     <string name="playBtn_Java">play</string>
+    <string name="sd_lang_4">Javascript</string>
 
 </resources>

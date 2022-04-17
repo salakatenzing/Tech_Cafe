@@ -16,9 +16,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Techcafe1">
         <activity
-            android:name=".javaMapVideo"
-            android:exported="false" />
-        <activity
             android:name=".MissionStatement"
             android:exported="false" />
         <activity
