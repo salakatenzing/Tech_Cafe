@@ -84,5 +84,6 @@
     <string name="notify">notify</string>
     <string name="activity">activity</string>
     <string name="backButton">back</string>
+    <string name="playBtn_Java">play</string>
 
 </resources>

@@ -23,6 +23,7 @@ public class MissionStatement extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MissionStatement.this, MainActivity.class);
+
                 startActivity(intent);
             }
         });

@@ -29,7 +29,7 @@
 
         <LinearLayout
             android:layout_width="371dp"
-            android:layout_height="292dp"
+            android:layout_height="605dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -49,7 +49,8 @@
                 android:textColor="@color/orangeish"
                 android:textSize="24sp" />
 
-            <TextView
+
+            <Button
                 android:id="@+id/sd_lang_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,6 +58,18 @@
                 android:fontFamily="@font/avenir_normal"
                 android:text="@string/sd_lang_1"
                 android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/sd_lang_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/avenir_regular"
+                android:text="@string/sd_lang_3"
+                android:textAlignment="viewStart"
                 android:textSize="20sp" />
 
             <TextView
@@ -71,17 +84,6 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/sd_lang_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/avenir_regular"
-                android:text="@string/sd_lang_3"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
-
-            <TextView
                 android:id="@+id/sd_lang_res"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -91,6 +93,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/blueish" />
         </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
