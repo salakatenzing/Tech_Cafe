@@ -16,6 +16,7 @@ public class MissionStatement extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mission_statement);
+
         //setting onClickListener to the entire layout so anywhere that is clicked will follow the intent
         layout = (ConstraintLayout)findViewById(R.id.missionStatement);
         layout.setOnClickListener(new View.OnClickListener() {
