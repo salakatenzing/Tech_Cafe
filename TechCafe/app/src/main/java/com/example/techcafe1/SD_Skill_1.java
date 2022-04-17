@@ -14,19 +14,34 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
 public class SD_Skill_1 extends YouTubeBaseActivity {
- Button javaVideo;
+    Button javaButton;
+    YouTubePlayerView javaPlayerview;
+    YouTubePlayer.OnInitializedListener onInitializedListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sd_skill1);
 
-        javaVideo = (Button) findViewById(R.id.sd_lang_1);
-        javaVideo.setOnClickListener(view -> {
-            Intent intent = new Intent(this, javaMapVideo.class);
-            startActivity(intent);
-            Toast.makeText(SD_Skill_1.this, "Beginning of journey!",
-                    Toast.LENGTH_SHORT).show();
+        javaButton = (Button) findViewById(R.id.java_play);
+        javaPlayerview = (YouTubePlayerView) findViewById(R.id.Java_firstVid);
+
+        onInitializedListener = new YouTubePlayer.OnInitializedListener() {
+            @Override
+            public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
+                youTubePlayer.loadVideo("mxKNH2gmdUc");
+            }
+
+            @Override
+            public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
+
+            }
+        };
+        javaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                javaPlayerview.initialize("AIzaSyCCEvFjfz4GFYUOpTaLl-gHbpHAtzSxgHg", onInitializedListener);
+            }
         });
     }
 }

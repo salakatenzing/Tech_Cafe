@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="406dp"
         android:layout_height="668dp"
+        android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,9 +28,22 @@
             android:textAlignment="center"
             android:textSize="34sp" />
 
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/Java_firstVid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/java_play"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/playBtn_Java" />
+
         <LinearLayout
             android:layout_width="371dp"
-            android:layout_height="605dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -50,7 +64,7 @@
                 android:textSize="24sp" />
 
 
-            <Button
+            <TextView
                 android:id="@+id/sd_lang_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,6 +102,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
                 android:fontFamily="@font/avenir_normal"
                 android:text="@string/sd_lang_res"
                 android:textAlignment="center"
