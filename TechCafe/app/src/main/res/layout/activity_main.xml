@@ -62,12 +62,29 @@
             tools:ignore="TextContrastCheck" />
 
         <Button
+            android:id="@+id/guest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_alternative"
+            android:fontFamily="@font/avenir_heavy"
+            android:shadowColor="#000000"
+            android:shadowRadius="0"
+            android:textAllCaps="false"
+            android:textColor="@color/orangeish"
+            android:textSize="18dp"
+            android:text="Guest" />
+
+        <Button
             android:id="@+id/button_login_account1"
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="160dp"
+            android:layout_marginTop="15dp"
             android:layout_marginRight="50dp"
             android:layout_marginBottom="15dp"
             android:background="@drawable/button_alternative"
