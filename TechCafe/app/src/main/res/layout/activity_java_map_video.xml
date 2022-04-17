@@ -8,9 +8,9 @@
     tools:context=".javaMapVideo">
 
     <com.google.android.youtube.player.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:id="@+id/Java_firstVid"/>
+        android:id="@+id/Java_firstVid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/java_play"

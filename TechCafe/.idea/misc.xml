@@ -44,6 +44,7 @@
         <entry key="app/src/main/res/layout/activity_cs_us20.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/activity_cyber_security_page.xml" value="0.16869300911854104" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.211248779296875" />
+        <entry key="app/src/main/res/layout/activity_java_map_video.xml" value="0.16869300911854104" />
         <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.25755767822265624" />
         <entry key="app/src/main/res/layout/activity_lesson_page.xml" value="0.11399492381674659" />
         <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.17119565217391305" />
@@ -68,7 +69,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
