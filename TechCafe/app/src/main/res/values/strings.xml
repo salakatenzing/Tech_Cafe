@@ -39,6 +39,19 @@
     <string name="sd_topic_9">Topic</string>
     <string name="sd_topic_24">Topic</string>
     <string name="sd_topic_25">Topic</string>
+    <string name="mission_statement">Tech Cafe is a platform where you can learn and improve your skills
+        within a specific computer science field. Using this app will give you the chance
+        to view statistics, common interview questions and practice problems for your chosen field.
+        Sign up or Log in to get started!</string>
+    //Profile Page
+    <string name="user_name">Username</string>
+    <string name="edit_userName">edit name</string>
+    <string name="password_setting">Password Setting</string>
+    <string name="notify">notify</string>
+    <string name="activity">activity</string>
+    <string name="backButton">back</string>
+    <string name="playBtn_Java">play</string>
+    <string name="sd_lang_4">Javascript</string>
 
 
     //SD Skill 1
