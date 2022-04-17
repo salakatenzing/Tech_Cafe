@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SoftwareDevPage">
+    tools:context=".UI_UXPage">
 
 
     <LinearLayout
@@ -25,7 +25,7 @@
             android:layout_height="182dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="32dp"
-            android:background="@drawable/topics_block"
+            android:background="@drawable/field_info_block"
             android:baselineAligned="false"
             android:orientation="vertical"
             android:textAlignment="center"
@@ -34,19 +34,19 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/sd_stats_name"
+                android:id="@+id/uix_stats_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/avenir_heavy"
-                android:text="@string/sd_stat_name"
+                android:text="@string/uix_stat_name"
                 android:textAlignment="center"
                 android:textColor="@color/orangeish"
                 android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/sd_stat1"
+                android:id="@+id/uix_stat1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -56,7 +56,7 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/sd_stat2"
+                android:id="@+id/uix_stat2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -78,54 +78,237 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/sd_skills"
+            android:id="@+id/uix_skills"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="0dp"
             android:fontFamily="@font/avenir_heavy"
-            android:text="@string/sd_skills"
+            android:text="@string/uix_skills"
             android:textSize="24sp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="148dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:fillViewport="true"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            android:scrollbars="none">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/button17"
-                    android:layout_width="153dp"
-                    android:layout_height="145dp"
-                    android:layout_margin="4dp"
+                <LinearLayout
+                    android:id="@+id/uix_topic_block_1"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/greenish"
-                    android:text="@string/sd_topic_2" />
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/button18"
-                    android:layout_width="153dp"
-                    android:layout_height="145dp"
-                    android:layout_margin="4dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/greenish"
-                    android:text="@string/sd_topic_3" />
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
 
-                <Button
-                    android:id="@+id/button19"
-                    android:layout_width="153dp"
-                    android:layout_height="145dp"
-                    android:layout_margin="4dp"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/textViewS2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:id="@+id/textViewS2P"
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/uix_topic_block_2"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/greenish"
-                    android:text="@string/sd_topic_4" />
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/uix_topic_block_3"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/uix_topic_block_4"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/uix_topic_block_5"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
             </LinearLayout>
         </HorizontalScrollView>
 
@@ -133,51 +316,190 @@
             android:id="@+id/sd_interview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="0dp"
             android:fontFamily="@font/avenir_heavy"
             android:text="@string/sd_interview"
             android:textSize="24sp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="168dp"
+            android:layout_height="148dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:fillViewport="true"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            android:scrollbars="none">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal" >
+                android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/button20"
-                    android:layout_width="153dp"
-                    android:layout_height="145dp"
-                    android:layout_margin="4dp"
+                <LinearLayout
+                    android:id="@+id/sd_topic_1"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/greenish"
-                    android:text="@string/sd_topic_5" />
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/button21"
-                    android:layout_width="153dp"
-                    android:layout_height="145dp"
-                    android:layout_margin="4dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/greenish"
-                    android:text="@string/sd_topic_6" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
 
-                <Button
-                    android:id="@+id/button22"
-                    android:layout_width="153dp"
-                    android:layout_height="145dp"
-                    android:layout_margin="4dp"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sd_topic_2"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/greenish"
-                    android:text="@string/sd_topic_7" />
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sd_topic_3"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sd_topic_4"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/topics_block"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:background="@drawable/block_topics_top" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="@string/topic_name"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/avenir_heavy"
+                            android:text="0%"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>

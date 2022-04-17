@@ -2,12 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.techcafe1">
 
-    <queries>
-        <intent>
-            <action android:name="com.google.android.youtube.api.service.START" />
-        </intent>
-    </queries>
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,10 +10,67 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Techcafe1">
         <activity
-            android:name=".MissionStatement"
+            android:name=".UIXTechnical"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".UIUXBehavior"
+            android:exported="false" />
+        <activity
+            android:name=".SDTechnical"
+            android:exported="false" />
+        <activity
+            android:name=".SDsql"
+            android:exported="false" />
+        <activity
+            android:name=".SDScreening"
+            android:exported="false" />
+        <activity
+            android:name=".SDReact"
+            android:exported="false" />
+        <activity
+            android:name=".SDJavapython"
+            android:exported="false" />
+        <activity
+            android:name=".SDJavaTechnical"
+            android:exported="false" />
+        <activity
+            android:name=".SDJavaScript"
+            android:exported="false" />
+        <activity
+            android:name=".SDExperince"
+            android:exported="false" />
+        <activity
+            android:name=".SDCodingAssesment"
+            android:exported="false" />
+        <activity
+            android:name=".CSTechnical"
+            android:exported="false" />
+        <activity
+            android:name=".CSScreening"
+            android:exported="false" />
+        <activity
+            android:name=".UIX_Skill_3"
+            android:exported="false" />
+        <activity
+            android:name=".UIX_Skill_2"
+            android:exported="false" />
+        <activity
+            android:name=".SD_Skill_5"
+            android:exported="false" />
+        <activity
+            android:name=".CS_Skill_5"
+            android:exported="false" />
+        <activity
+            android:name=".UIX_Skill_1"
+            android:exported="false" />
+        <activity
+            android:name=".CS_Skill_4"
+            android:exported="false" />
+        <activity
+            android:name=".CS_Skill_3"
+            android:exported="false" />
+        <activity
+            android:name=".CS_Skill_2"
             android:exported="false" />
         <activity
             android:name=".UI_UXPage"
@@ -61,18 +112,16 @@
             android:name=".SD_Skill_4"
             android:exported="false" />
         <activity
-            android:name=".SD_Skill_5"
-            android:exported="false" />
-        <activity
             android:name=".CS_Skill_1"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Techcafe1"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
