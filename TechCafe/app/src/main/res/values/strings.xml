@@ -34,7 +34,7 @@
 
     //Software Dev strings
     <string name="sd_interview">Interview Practice</string>
-    <string name="sd_topic_1">Interview Practice</string>
+    <string name="sd_topic_1">Topic</string>
     <string name="sd_topic_8">Topic</string>
     <string name="sd_topic_9">Topic</string>
     <string name="sd_topic_24">Topic</string>
@@ -44,10 +44,13 @@
     //SD Skill 1
     <string name="sd_skill1">Software Development</string>
     <string name="sd_lang_skill">Coding Languages </string>
-    <string name="sd_lang_1">Java</string>
-    <string name="sd_lang_2">C++</string>
-    <string name="sd_lang_3">HTML</string>
-    <string name="sd_lang_res">According to </string>
+    <string name="sd_lang_1">\u2022 JavaScript</string>
+    <string name="sd_lang_2">\u2022 Java</string>
+    <string name="sd_lang_3">\u2022 Python</string>
+    <string name="sd_lang4">\u2022 PHP</string>
+    <string name="sd_lang5">\u2022 C#</string>
+    <string name="sd_lang6">\u2022 C++</string>
+    <string name="sd_lang_res">According To <a href="https://distantjob.com/blog/programming-languages-rank/"> DistnatJob.com</a> </string>
 
     //SD Skill 2
     <string name="sd_database_skill">Database</string>
@@ -376,6 +379,11 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00P
     //UI/UX Behavioral Header+Subheading
     <string name="uiuxhead">Behavioral Questions</string>
     <string name="uiuxsubhead">"Behavioral interviews allow the interviewer to get a much better understanding of you as a candidate."</string>
+
+    <string name="sd_stat1">Average Salary</string>
+    <string name="sd_stat2">Demand</string>
+    <string name="sd_stat3">Projected Growth</string>
+
 
 
 </resources>
