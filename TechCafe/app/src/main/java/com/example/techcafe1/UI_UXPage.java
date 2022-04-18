@@ -36,6 +36,20 @@ public class UI_UXPage extends AppCompatActivity {
                 open_UIX_Skill_3();
             }
         });
+        View interview1_button = findViewById(R.id.uiux_interview_1);
+        interview1_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_uiux_interview1();
+            }
+        });
+        View interview2_button = findViewById(R.id.uiux_interview_2);
+        interview2_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_uiux_interview2();
+            }
+        });
 
     }
     public void open_UIX_Skill_1(){
@@ -48,6 +62,14 @@ public class UI_UXPage extends AppCompatActivity {
     }
     public void open_UIX_Skill_3(){
         Intent intent = new Intent (this, UIX_Skill_3.class);
+        startActivity(intent);
+    }
+    public void open_uiux_interview1(){
+        Intent intent = new Intent (this, UIUXBehavior.class);
+        startActivity(intent);
+    }
+    public void open_uiux_interview2(){
+        Intent intent = new Intent (this, UIXTechnical.class);
         startActivity(intent);
     }
 }
