@@ -111,7 +111,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
@@ -154,7 +154,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
@@ -194,7 +194,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
@@ -234,7 +234,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
@@ -274,7 +274,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
@@ -346,7 +346,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
@@ -386,7 +386,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
@@ -426,7 +426,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
@@ -466,7 +466,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:background="@drawable/topics_block"
+                    android:background="@drawable/block_topics"
                     android:orientation="vertical">
 
                     <View
