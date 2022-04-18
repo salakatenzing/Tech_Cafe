@@ -384,6 +384,18 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00P
     <string name="sd_stat2">Demand</string>
     <string name="sd_stat3">Projected Growth</string>
 
+    <string name="user_name">Username</string>
+    <string name="edit_userName">edit name</string>
+    <string name="password_setting">Password Setting</string>
+    <string name="notify">notify</string>
+    <string name="activity">activity</string>
+    <string name="backButton">back</string>
+    <string name="playBtn_Java">play</string>
+    <string name="sd_lang_4">Javascript</string>
+    <string name="mission_statement">Tech Cafe is a platform where you can learn and improve your skills
+        within a specific computer science field. Using this app will give you the chance
+        to view statistics, common interview questions and practice problems for your chosen field.
+        Sign up or Log in to get started!</string>
 
 
 </resources>
