@@ -29,26 +29,37 @@
         <entry key="app/src/main/res/drawable/user_profile_picture_background.xml" value="0.1" />
         <entry key="app/src/main/res/font/avenir_heavy.xml" value="0.12685185185185185" />
         <entry key="app/src/main/res/font/avenir_normal.xml" value="0.12685185185185185" />
+        <entry key="app/src/main/res/layout/activity_cs_resource1.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_cs_resource2.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_cs_resource3.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_cs_resources4.xml" value="0.1838768115942029" />
         <entry key="app/src/main/res/layout/activity_cs_skill1.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_cs_skill2.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_cs_skill3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_cs_skill2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_cs_skill3.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_cs_skill4.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_cs_skill5.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_cs_us20.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/activity_csscreening.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_cstechnical.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_cyber_security_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_cyber_security_page.xml" value="0.2379182156133829" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.211248779296875" />
         <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.25755767822265624" />
         <entry key="app/src/main/res/layout/activity_lesson_page.xml" value="0.11399492381674659" />
         <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_mission_statement.xml" value="0.13405797101449277" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_mission_statement.xml" value="0.16077898550724637" />
         <entry key="app/src/main/res/layout/activity_notifications_page.xml" value="0.16869300911854104" />
         <entry key="app/src/main/res/layout/activity_profile_page.xml" value="0.16869300911854104" />
         <entry key="app/src/main/res/layout/activity_register_page.xml" value="0.2152603149414063" />
+        <entry key="app/src/main/res/layout/activity_sd_resource2.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_sd_resources1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sd_resources3.xml" value="0.1157548125633232" />
+        <entry key="app/src/main/res/layout/activity_sd_resources4.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_sd_skill1.xml" value="0.23802083333333332" />
-        <entry key="app/src/main/res/layout/activity_sd_skill2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sd_skill2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sd_skill3.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sd_skill4.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_sd_skill5.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_sd_us20.xml" value="0.23802083333333332" />
@@ -66,8 +77,13 @@
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_ui_uxpage.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_uiuxbehavior.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_uix_resource1.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_uix_resource2.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_uix_resource4.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_uix_resource5.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_uix_rsource3.xml" value="0.1838768115942029" />
         <entry key="app/src/main/res/layout/activity_uix_skill1.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_uix_skill2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_uix_skill2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_uix_skill3.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_uixtechnical.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_ur_us20.xml" value="0.23802083333333332" />

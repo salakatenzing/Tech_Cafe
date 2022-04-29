@@ -36,6 +36,39 @@ public class UI_UXPage extends AppCompatActivity {
                 open_UIX_Skill_3();
             }
         });
+        View button28 = findViewById(R.id.uix_topic_28);
+        button28.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Resource_1();
+            }
+        });
+        View button29 = findViewById(R.id.uix_topic_29);
+        button29.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Resource_2();
+            }
+        });
+        View button30 = findViewById(R.id.uix_topic_30);
+        button30.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Resource_3();
+            }
+        });
+        View button31 = findViewById(R.id.uix_topic_31);
+        button31.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Resource_4();
+            }
+        });
+        View button32 = findViewById(R.id.uix_topic_32);
+        button32.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Resource_5();
         View interview1_button = findViewById(R.id.uiux_interview_1);
         interview1_button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -64,6 +97,24 @@ public class UI_UXPage extends AppCompatActivity {
         Intent intent = new Intent (this, UIX_Skill_3.class);
         startActivity(intent);
     }
+    public void open_UIX_Resource_1(){
+        Intent intent = new Intent (this, UIX_Resource_1.class);
+        startActivity(intent);
+    }
+    public void open_UIX_Resource_2(){
+        Intent intent = new Intent (this, UIX_Resource_2.class);
+        startActivity(intent);
+    }
+    public void open_UIX_Resource_3(){
+        Intent intent = new Intent (this, UIX_Rsource_3.class);
+        startActivity(intent);
+    }
+    public void open_UIX_Resource_4(){
+        Intent intent = new Intent (this, UIX_Resource_4.class);
+        startActivity(intent);
+    }
+    public void open_UIX_Resource_5(){
+        Intent intent = new Intent (this, UIX_Resource_5.class);
     public void open_uiux_interview1(){
         Intent intent = new Intent (this, UIUXBehavior.class);
         startActivity(intent);

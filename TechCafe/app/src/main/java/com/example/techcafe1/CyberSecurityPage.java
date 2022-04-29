@@ -57,6 +57,34 @@ public class CyberSecurityPage extends AppCompatActivity {
                 open_cyberInterview2();
             }
         });
+        View button24 = findViewById(R.id.cs_topic_24);
+        button24.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_CS_Resource_1();
+            }
+        });
+        View button25 = findViewById(R.id.cs_topic_25);
+        button25.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_CS_Resource_2();
+            }
+        });
+        View button26 = findViewById(R.id.cs_topic_26);
+        button26.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_CS_Resource_3();
+            }
+        });
+        View button27 = findViewById(R.id.cs_topic_27);
+        button27.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_CS_Resource_4();
+            }
+        });
 
 
     }
@@ -82,6 +110,22 @@ public class CyberSecurityPage extends AppCompatActivity {
     }
     public void open_cyberInterview2(){
         Intent intent = new Intent (this, CSTechnical.class);
+        startActivity(intent);
+    }
+    public void open_CS_Resource_1(){
+        Intent intent = new Intent (this, CS_Resource_1.class);
+        startActivity(intent);
+    }
+    public void open_CS_Resource_2(){
+        Intent intent = new Intent (this, CS_Resource_2.class);
+        startActivity(intent);
+    }
+    public void open_CS_Resource_3(){
+        Intent intent = new Intent (this, CS_Resource_3.class);
+        startActivity(intent);
+    }
+    public void open_CS_Resource_4(){
+        Intent intent = new Intent (this, CS_Resources_4.class);
         startActivity(intent);
     }
 

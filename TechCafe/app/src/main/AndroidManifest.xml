@@ -16,6 +16,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Techcafe1">
         <activity
+            android:name=".UIX_Resource_5"
+            android:exported="false" />
+        <activity
+            android:name=".UIX_Resource_4"
+            android:exported="false" />
+        <activity
+            android:name=".UIX_Rsource_3"
+            android:exported="false" />
+        <activity
+            android:name=".UIX_Resource_2"
+            android:exported="false" />
+        <activity
+            android:name=".UIX_Resource_1"
+            android:exported="false" />
+        <activity
+            android:name=".CS_Resources_4"
+            android:exported="false" />
+        <activity
+            android:name=".CS_Resource_3"
+            android:exported="false" />
+        <activity
+            android:name=".CS_Resource_2"
+            android:exported="false" />
+        <activity
+            android:name=".CS_Resource_1"
+            android:exported="false" />
+        <activity
+            android:name=".SD_Resources_4"
+            android:exported="false" />
+        <activity
+            android:name=".SD_Resources_3"
+            android:exported="false" />
+        <activity
+            android:name=".SD_Resource_2"
+            android:exported="false" />
+        <activity
+            android:name=".sd_resources_1"
+            android:exported="false" />
+        <activity
             android:name=".UIXTechnical"
             android:exported="false" />
         <activity

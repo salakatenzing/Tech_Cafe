@@ -77,231 +77,323 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/cs_skills"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginRight="25dp"
-            android:layout_marginBottom="0dp"
-            android:fontFamily="@font/avenir_heavy"
-            android:text="@string/cs_skills"
-            android:textSize="24sp" />
-
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="148dp"
-            android:layout_margin="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:fillViewport="true"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:scrollbars="none">
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:id="@+id/cs_topic_block_1"
-                    android:layout_width="160dp"
-                    android:layout_height="match_parent"
+                <TextView
+                    android:id="@+id/cs_skills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/avenir_heavy"
+                    android:text="@string/cs_skills"
+                    android:textSize="24sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:layout_margin="15dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/block_topics"
-                    android:orientation="vertical">
-
-                    <View
-                        android:id="@+id/view2"
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:background="@drawable/block_topics_top" />
+                    android:layout_marginTop="10dp"
+                    android:fillViewport="true"
+                    android:scrollbars="none"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:padding="5dp">
+                        android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/textViewS2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                        <LinearLayout
+                            android:id="@+id/cs_topic_block_1"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="@string/topic_name"
-                            android:textColor="#FFFFFF" />
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:id="@+id/textViewS2P"
-                            android:layout_width="10dp"
-                            android:layout_height="wrap_content"
+                            <View
+                                android:id="@+id/view2"
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:id="@+id/textViewS2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:id="@+id/textViewS2P"
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/cs_topic_block_2"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="0%"
-                            android:textColor="#FFFFFF" />
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/cs_topic_block_3"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/cs_topic_block_4"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/cs_topic_block_5"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
                     </LinearLayout>
-                </LinearLayout>
+                </HorizontalScrollView>
 
-                <LinearLayout
-                    android:id="@+id/cs_topic_block_2"
-                    android:layout_width="160dp"
-                    android:layout_height="match_parent"
+                <TextView
+                    android:id="@+id/sd_interview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/avenir_heavy"
+                    android:text="@string/sd_interview"
+                    android:textSize="24sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:layout_margin="15dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/block_topics"
-                    android:orientation="vertical">
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:background="@drawable/block_topics_top" />
+                    android:layout_marginTop="10dp"
+                    android:fillViewport="true"
+                    android:scrollbars="none"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:padding="5dp">
+                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                        <LinearLayout
+                            android:id="@+id/sd_topic_1"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="@string/topic_name"
-                            android:textColor="#FFFFFF" />
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="10dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="0%"
-                            android:textColor="#FFFFFF" />
-                    </LinearLayout>
-                </LinearLayout>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
 
-                <LinearLayout
-                    android:id="@+id/cs_topic_block_3"
-                    android:layout_width="160dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/block_topics"
-                    android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
 
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:background="@drawable/block_topics_top" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:padding="5dp">
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="@string/topic_name"
-                            android:textColor="#FFFFFF" />
-
-                        <TextView
-                            android:layout_width="10dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="0%"
-                            android:textColor="#FFFFFF" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/cs_topic_block_4"
-                    android:layout_width="160dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/block_topics"
-                    android:orientation="vertical">
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:background="@drawable/block_topics_top" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="@string/topic_name"
-                            android:textColor="#FFFFFF" />
-
-                        <TextView
-                            android:layout_width="10dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="0%"
-                            android:textColor="#FFFFFF" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/cs_topic_block_5"
-                    android:layout_width="160dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/block_topics"
-                    android:orientation="vertical">
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:background="@drawable/block_topics_top" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="@string/topic_name"
-                            android:textColor="#FFFFFF" />
-
-                        <TextView
-                            android:layout_width="10dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
+                        <LinearLayout
+                            android:id="@+id/sd_topic_2"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
                             android:fontFamily="@font/avenir_heavy"
                             android:text="0%"
                             android:textColor="#FFFFFF" />
@@ -366,14 +458,85 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="@string/topic_name"
-                            android:textColor="#FFFFFF" />
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="10dp"
-                            android:layout_height="wrap_content"
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/sd_topic_3"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
                             android:layout_weight="1"
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/sd_topic_4"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
                             android:fontFamily="@font/avenir_heavy"
                             android:text="0%"
                             android:textColor="#FFFFFF" />
@@ -406,23 +569,237 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="@string/topic_name"
-                            android:textColor="#FFFFFF" />
+                            android:background="@drawable/block_topics"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="10dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="0%"
-                            android:textColor="#FFFFFF" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
                     </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/cs_resources"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/avenir_heavy"
+                    android:text="@string/cs_resources"
+                    android:textSize="24sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_margin="15dp"
+                    android:fillViewport="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/cs_topic_24"
+                            android:orientation="vertical"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/block_topics">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/cs_topic_25"
+                            android:orientation="vertical"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/block_topics">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/cs_topic_26"
+                            android:orientation="vertical"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/block_topics">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/cs_topic_27"
+                            android:orientation="vertical"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/block_topics">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="105dp"
+                                android:background="@drawable/block_topics_top" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="@string/topic_name"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/avenir_heavy"
+                                    android:text="0%"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
                 </LinearLayout>
 
-
-
             </LinearLayout>
-        </HorizontalScrollView>
+        </ScrollView>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
