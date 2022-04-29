@@ -53,6 +53,69 @@ public class SoftwareDevPage extends AppCompatActivity {
                 open_SD_Skill_5();
             }
         });
+        View interview1_button = findViewById(R.id.sd_interview_1);
+        interview1_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview1();
+            }
+        });
+        View interview2_button = findViewById(R.id.sd_interview_2);
+        interview2_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview2();
+            }
+        });
+        View interview3_button = findViewById(R.id.sd_interview_3);
+        interview3_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview3();
+            }
+        });
+        View interview4_button = findViewById(R.id.sd_interview_4);
+        interview4_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview4();
+            }
+        });
+        View interview5_button = findViewById(R.id.sd_interview_5);
+        interview5_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview5();
+            }
+        });
+        View interview6_button = findViewById(R.id.sd_interview_6);
+        interview6_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview6();
+            }
+        });
+        View interview7_button = findViewById(R.id.sd_interview_7);
+        interview7_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview7();
+            }
+        });
+        View interview8_button = findViewById(R.id.sd_interview_8);
+        interview8_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview8();
+            }
+        });
+        View interview9_button = findViewById(R.id.sd_interview_9);
+        interview9_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_interview9();
+            }
+        });
 
         View button20 = findViewById(R.id.sd_topic_20);
         button20.setOnClickListener(new View.OnClickListener(){
@@ -112,6 +175,42 @@ public class SoftwareDevPage extends AppCompatActivity {
     }
     public void open_SD_Resource_4(){
         Intent intent = new Intent (this, SD_Resources_4.class);
+        startActivity(intent);
+    }
+    public void open_interview1(){
+        Intent intent = new Intent (this, SDCodingAssesment.class);
+        startActivity(intent);
+    }
+    public void open_interview2(){
+        Intent intent = new Intent (this, SDExperince.class);
+        startActivity(intent);
+    }
+    public void open_interview3(){
+        Intent intent = new Intent (this, SDJavaScript.class);
+        startActivity(intent);
+    }
+    public void open_interview4(){
+        Intent intent = new Intent (this, SDJavaTechnical.class);
+        startActivity(intent);
+    }
+    public void open_interview5(){
+        Intent intent = new Intent (this, SDJavapython.class);
+        startActivity(intent);
+    }
+    public void open_interview6(){
+        Intent intent = new Intent (this, SDReact.class);
+        startActivity(intent);
+    }
+    public void open_interview7(){
+        Intent intent = new Intent (this, SDScreening.class);
+        startActivity(intent);
+    }
+    public void open_interview8(){
+        Intent intent = new Intent (this, SDsql.class);
+        startActivity(intent);
+    }
+    public void open_interview9(){
+        Intent intent = new Intent (this, SDTechnical.class);
         startActivity(intent);
     }
 }
