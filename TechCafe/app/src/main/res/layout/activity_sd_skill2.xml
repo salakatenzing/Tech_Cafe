@@ -7,8 +7,8 @@
     tools:context=".SD_Skill_1">
 
     <LinearLayout
-        android:layout_width="406dp"
-        android:layout_height="668dp"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,8 +28,8 @@
             android:textSize="34sp" />
 
         <LinearLayout
-            android:layout_width="371dp"
-            android:layout_height="292dp"
+            android:layout_width="375dp"
+            android:layout_height="438dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -49,47 +49,147 @@
                 android:textColor="@color/orangeish"
                 android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/sd_database_1"
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_database_1"
-                android:textAlignment="textStart"
-                android:textSize="20sp" />
+                android:layout_height="289dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sd_database_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/avenir_normal"
+                        android:text="@string/sd_database_1"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_database_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_normal"
+                        android:text="@string/sd_database_2"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_3"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_4"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_5"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_6"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_7"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_8"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_9"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_10"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_database_11"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </ScrollView>
 
             <TextView
-                android:id="@+id/sd_database_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_database_2"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/sd_databse_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/avenir_regular"
-                android:text="@string/sd_database_3"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/sd_lang_res"
+                android:id="@+id/sd_databse_res"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_lang_res"
+                android:text="@string/sd_database_res"
                 android:textAlignment="center"
                 android:textColor="@color/blueish" />
+
         </LinearLayout>
     </LinearLayout>
 

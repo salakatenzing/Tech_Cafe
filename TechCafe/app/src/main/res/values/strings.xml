@@ -53,22 +53,45 @@
     <string name="sd_lang_res">According To <a href="https://distantjob.com/blog/programming-languages-rank/"> DistnatJob.com</a> </string>
 
     //SD Skill 2
-    <string name="sd_database_skill">Database</string>
-    <string name="sd_database_1">Skill 1 </string>
-    <string name="sd_database_2">Skill 2</string>
-    <string name="sd_database_3">Skill 3</string>
+    <string name="sd_database_skill">Algorithms</string>
+    <string name="sd_database_1">Sorting Algorithms </string>
+    <string name="sd_database_2">   \u2022 Merge Sort</string>
+    <string name="sd_database_3">   \u2022 Bubble Sort</string>
+    <string name="sd_database_4">   \u2022 Quick Sort</string>
+    <string name="sd_database_5">   \u2022 Bucket Sort</string>
+    <string name="sd_database_6">   \u2022 Heap Sort</string>
+    <string name="sd_database_7">Searching Algorthims</string>
+    <string name="sd_database_8">   \u2022 DFS</string>
+    <string name="sd_database_9">   \u2022 BFS</string>
+    <string name="sd_database_10">Hashing</string>
+    <string name="sd_database_11">Dynamic Programing</string>
+    <string name="sd_database_res">According To <a href="https://u.osu.edu/cstutorials/2016/11/21/7-algorithms-and-data-structures-every-programmer-must-know/"> OSU.edu</a> </string>
 
     //SD Skill 3
-    <string name="sd_datastruc_skill">Data Structure</string>
-    <string name="sd_datastruc_1">Skill 1 </string>
-    <string name="sd_datastruc_2">Skill 2</string>
-    <string name="sd_datastruc_3">Skill 3</string>
+    <string name="sd_datastruc_skill">Data Types and Structures</string>
+    <string name="sd_datastruc_1">Common Data Types </string>
+    <string name="sd_datastruc_2">\u2022 Int</string>
+    <string name="sd_datastruc_3">\u2022 Double/Float</string>
+    <string name="sd_datastruc_4">\u2022 Bool</string>
+    <string name="sd_datastruc_5">\u2022 Char/String</string>
+    <string name="sd_datastruc_6">\u2022 Enum</string>
+    <string name="sd_datastruc_7">Structures</string>
+    <string name="sd_datastruc_8">\u2022 Arrays</string>
+    <string name="sd_datastruc_9">\u2022 Linked Lists</string>
+    <string name="sd_datastruc_10">\u2022 Stacks</string>
+    <string name="sd_datastruc_11">\u2022 Queues</string>
+    <string name="sd_datastruc_12">\u2022 Hash Tables</string>
+    <string name="sd_datastruc_res">According to <a href="https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42?gi=34ac498196d6
+    ">tds</a> and <a href="https://amplitude.com/blog/data-types">Amplitude</a></string>
 
     //SD Skill 4
-    <string name="sd_algo_skill">Algorithms</string>
-    <string name="sd_algo_1">Skill 1 </string>
-    <string name="sd_algo_2">Skill 2</string>
-    <string name="sd_algo_3">Skill 3</string>
+    <string name="sd_algo_skill">Database</string>
+    <string name="sd_algo_1">Oracle</string>
+    <string name="sd_algo_2">MySQL</string>
+    <string name="sd_algo_3">SQLServer</string>
+    <string name="sd_algo_4">Microsoft Access</string>
+    <string name="sd_algo_5">MongoDB</string>
+    <string name="sd_algo_res">According to <a href="https://www.developer.com/database/best-database-software/">developer.com</a></string>
 
     //SD Skill 5
     <string name="sd_testing_skill">Testing</string>
@@ -79,51 +102,83 @@
     //CS Skill 1
     <string name="cs_skill1">Cyber Security</string>
     <string name="cs_coding_skill">Coding Languages</string>
-    <string name="cs_lang_1">Java</string>
+    <string name="cs_lang_1">Python</string>
     <string name="cs_lang_2">C++</string>
-    <string name="cs_lang_3">HTML</string>
-    <string name="cs_lang_res">According to </string>
+    <string name="cs_lang_3">C</string>
+    <string name="cs_lang_4">GO</string>
+    <string name="cs_lang_5">JavaScript</string>
+    <string name="cs_lang_6">Java</string>
+    <string name="cs_lang_7">PowerShell</string>
+    <string name="cs_lang_res">According to <a href="https://flatironschool.com/blog/best-programming-languages-cyber-security/">flatironschol.com</a> </string>
 
     //CS Skill 2
     <string name="cs_skill2">Cyber Security</string>
     <string name="cs_network_skill">Networking</string>
-    <string name="cs_network_1">Need</string>
-    <string name="cs_network_2">To</string>
-    <string name="cs_network_3">Know</string>
+    <string name="cs_network_1">Clinets and Servers</string>
+    <string name="cs_network_2">IP Adresses</string>
+    <string name="cs_network_3">Network Hubs and Switches</string>
+    <string name="cs_network_4">Routers and Firewalls</string>
+    <string name="cs_network_res">According to <a href="https://commotionwireless.net/docs/cck/networking/learn-networking-basics/#:~:text=Networks%20are%20made%20up%20of,in%20a%20community%20or%20neighborhood.">commotionwireless.com</a></string>
 
     //CS Skill 3
     <string name="cs_skill3">Cyber Security</string>
-    <string name="cs_system_skill">Systems</string>
-    <string name="cs_system_1">Need</string>
-    <string name="cs_system_2">To</string>
-    <string name="cs_system_3">Know</string>
+    <string name="cs_system_skill">Encryption</string>
+    <string name="cs_system_1">Cryptographic Key Systems</string>
+    <string name="cs_system_2">\u2022 Symmetric Key Systems</string>
+    <string name="cs_system_3">\u2022 Asymmetric Key Systems</string>
+    <string name="cs_system_4">Encryption Algorithms</string>
+    <string name="cs_system_5">\u2022 Triple Data Encryption Standard (DES)</string>
+    <string name="cs_system_6">\u2022 Advanced Encryption Standard (AES)</string>
+    <string name="cs_system_7">\u2022 RSA Security</string>
+    <string name="cs_system_8">\u2022 Blowfish</string>
+    <string name="cs_system_9">\u2022 Twofish</string>
+    <string name="cs_system_res">According to <a href="https://blog.storagecraft.com/5-common-encryption-algorithms/">storagecraft.com</a></string>
 
     //CS Skill 4
     <string name="cs_skill4">Cyber Security</string>
     <string name="cs_security_skill">Security</string>
-    <string name="cs_security_1">Need</string>
-    <string name="cs_security_2">To</string>
-    <string name="cs_security_3">Know</string>
+    <string name="cs_security_1">Malware</string>
+    <string name="cs_security_2">Emotet</string>
+    <string name="cs_security_3">Denial Of Service</string>
+    <string name="cs_security_4">Denial of Service (DDoS)</string>
+    <string name="cs_security_5">Man in the Middle (MITM)</string>
+    <string name="cs_security_6">Phishing</string>
+    <string name="cs_security_7">SQL injections</string>
+    <string name="cs_security_8">Password Attacks</string>
+    <string name="cs_security_res">According to <a href="https://onlinedegrees.und.edu/blog/types-of-cyber-security-threats/">onlinedegrees.edu</a></string>
 
     //UI/UX Skill 1
     <string name="uix_skill1">UI/UX</string>
     <string name="uix_lang_skill">Coding Languages</string>
-    <string name="uix_lang_1">Java Script</string>
-    <string name="uix_lang_2">HTML</string>
-    <string name="uix_lang_3">CSS</string>
-    <string name="uix_lang_res">According to </string>
+    <string name="uix_lang_1">JavaScript</string>
+    <string name="uix_lang_2">Hyper Text Markup Language (HTML)</string>
+    <string name="uix_lang_3">Cascasding Style Sheets (CSS)</string>
+    <string name="uix_lang_4">XML</string>
+    <string name="uix_lang_5">React (Library)</string>
+    <string name="uix_lang_6">Vue (Library)</string>
+    <string name="uix_lang_res">According to <a href="https://www.simplilearn.com/tutorials/programming-tutorial/best-front-end-programming-languages"> simplilearn.com</a> </string>
 
     //UI/UX Skill2
     <string name="uix_design_skill">Design</string>
     <string name="uix_design_1">Figma</string>
-    <string name="uix_design_2">To</string>
-    <string name="uix_design_3">Know</string>
+    <string name="uix_design_2">Sketch</string>
+    <string name="uix_design_3">InVisionStudio</string>
+    <string name="uix_design_4">PhotoShop</string>
+    <string name="uix_design_5">AdobeXD</string>
+    <string name="uix_design_6">Webflow</string>
+    <string name="uix_design_res">According to <a href="https://webflow.com/blog/ui-ux-design-tools">webflow.com</a></string>
 
     //UI/UX Skill3
-    <string name="uix_research_skill">Research</string>
-    <string name="uix_research_1">Good</string>
-    <string name="uix_research_2">To</string>
-    <string name="uix_research_3">Know</string>
+    <string name="uix_research_skill">Protocol</string>
+    <string name="uix_research_1">TCP</string>
+    <string name="uix_research_2">HTTP</string>
+    <string name="uix_research_3">IP</string>
+    <string name="uix_research_4">TCP/IP model</string>
+    <string name="uix_research_5">\u2022 Datalink Layer</string>
+    <string name="uix_research_6">\u2022 Internet Layer</string>
+    <string name="uix_research_7">\u2022 Transport Layer</string>
+    <string name="uix_research_8">\u2022 Application Layer</string>
+    <string name="uix_research_res">According to <a href="https://www.fortinet.com/resources/cyberglossary/tcp-ip">fortinet.com</a></string>
 
     //Updated Software Development Page Strings
     <string name="topic_name">Topic</string>
@@ -396,6 +451,26 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00P
         within a specific computer science field. Using this app will give you the chance
         to view statistics, common interview questions and practice problems for your chosen field.
         Sign up or Log in to get started!</string>
+    <string name="sd_resources">Resources</string>
+    <string name="cs_resources">Resources</string>
+    <string name="software_developement">Software Developement</string>
+    <string name="sd_books">Books</string>
+    <string name="sd_free_online">Online Free</string>
+    <string name="sd_online_payed">Online Payed</string>
+    <string name="sd_certification">Certification</string>
+    <string name="cyber_security">Cyber Security</string>
+    <string name="cs_books">Books</string>
+    <string name="cs_online_free">Online Free</string>
+    <string name="cs_online_payed">Online Payed</string>
+    <string name="cs_certification">Certification</string>
+    <string name="uix_name">UI/UX</string>
+    <string name="uix_books">Books</string>
+    <string name="uix_online_free">Online Free</string>
+    <string name="uix_online_payed">Online Payed</string>
+    <string name="uix_certification">Certification</string>
+    <string name="uix_react">React</string>
+    <string name="sd_description">Software Development is computer science activities dedicated to the process of creating, designing, deploying, and supporting software.</string>
+    <string name="cs_desription">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. It refers to the body of technologies, processes, and practices designed to protect networks, devices, programs, and data from attack, damage, or unauthorized access. </string>
 
 
 </resources>

@@ -28,8 +28,8 @@
             android:textSize="34sp" />
 
         <LinearLayout
-            android:layout_width="370dp"
-            android:layout_height="289dp"
+            android:layout_width="368dp"
+            android:layout_height="329dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -49,37 +49,81 @@
                 android:textColor="@color/orangeish"
                 android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/uix_lang_1"
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:text="@string/uix_lang_1"
-                android:textAlignment="textStart"
-                android:textSize="20sp" />
+                android:layout_height="180dp">
 
-            <TextView
-                android:id="@+id/uix_lang_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/avenir_normal"
-                android:text="@string/uix_lang_2"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/uix_lang_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/avenir_regular"
-                android:text="@string/uix_lang_3"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
+                    <TextView
+                        android:id="@+id/uix_lang_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/avenir_normal"
+                        android:text="@string/uix_lang_1"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/uix_lang_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_normal"
+                        android:text="@string/uix_lang_2"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/uix_lang_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/uix_lang_3"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/uix_lang_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/uix_lang_4"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/uix_lang_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/uix_lang_5"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/uix_lang_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/uix_lang_6"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </ScrollView>
 
             <TextView
                 android:id="@+id/uix_lang_res"

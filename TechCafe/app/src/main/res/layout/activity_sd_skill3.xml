@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="406dp"
-        android:layout_height="668dp"
+        android:layout_height="732dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,8 +28,8 @@
             android:textSize="34sp" />
 
         <LinearLayout
-            android:layout_width="371dp"
-            android:layout_height="292dp"
+            android:layout_width="373dp"
+            android:layout_height="430dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -49,45 +49,144 @@
                 android:textColor="@color/orangeish"
                 android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/sd_datastruc_1"
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_datastruc_1"
-                android:textAlignment="textStart"
-                android:textSize="20sp" />
+                android:layout_height="280dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/avenir_normal"
+                        android:text="@string/sd_datastruc_1"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_normal"
+                        android:text="@string/sd_datastruc_2"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_3"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_4"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_5"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_6"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_7"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_8"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_9"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_10"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_11"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </ScrollView>
 
             <TextView
-                android:id="@+id/sd_datastruc_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_datastruc_2"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/sd_datastruc_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/avenir_regular"
-                android:text="@string/sd_datastruc_3"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/sd_lang_res"
+                android:id="@+id/sd_datastruc_res"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_lang_res"
+                android:text="@string/sd_datastruc_res"
                 android:textAlignment="center"
                 android:textColor="@color/blueish" />
         </LinearLayout>
