@@ -71,6 +71,7 @@
             android:layout_marginRight="5dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/avenir_heavy"
+
             android:text="@string/sd_description" />
       </LinearLayout>
 
@@ -124,7 +125,7 @@
             android:layout_marginRight="5dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/avenir_heavy"
-            android:text="@string/cs_desription" />
+            android:text="@string/cs_description" />
       </LinearLayout>
 
       <ImageView
@@ -171,13 +172,13 @@
         <TextView
             android:id="@+id/block3_text"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="108dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="0dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/avenir_heavy"
-            android:text="TextView" />
+            android:text="@string/uix_description" />
       </LinearLayout>
 
       <ImageView
