@@ -94,9 +94,9 @@
 
     //SD Skill 5
     <string name="sd_testing_skill">Testing</string>
-    <string name="sd_testing_1">Skill 1 </string>
-    <string name="sd_testing_2">Skill 2</string>
-    <string name="sd_testing_3">Skill 3</string>
+    <string name="sd_testing_1">Selenium for Java</string>
+    <string name="sd_testing_2">Mocha for Javascript</string>
+    <string name="sd_testing_3">Jasmine for Javascript</string>
 
     //CS Skill 1
     <string name="cs_skill1">Cyber Security</string>

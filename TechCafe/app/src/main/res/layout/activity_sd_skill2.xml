@@ -27,9 +27,24 @@
             android:textAlignment="center"
             android:textSize="34sp" />
 
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/SD_2_vid"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/sd_skill2_play"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EEEE"
+            android:text="@string/playBtn_Java"
+            android:textColor="#FF9800"
+            android:layout_gravity="center"/>
+
         <LinearLayout
-            android:layout_width="375dp"
-            android:layout_height="438dp"
+            android:layout_width="374dp"
+            android:layout_height="324dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -177,20 +192,21 @@
                         android:text="@string/sd_database_11"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_databse_res"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="@font/avenir_normal"
+                        android:text="@string/sd_database_res"
+                        android:textAlignment="center"
+                        android:textColor="@color/blueish" />
                 </LinearLayout>
             </ScrollView>
 
-            <TextView
-                android:id="@+id/sd_databse_res"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_database_res"
-                android:textAlignment="center"
-                android:textColor="@color/blueish" />
-
         </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

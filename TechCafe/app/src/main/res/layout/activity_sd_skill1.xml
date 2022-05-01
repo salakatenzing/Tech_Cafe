@@ -7,8 +7,8 @@
     tools:context=".SD_Skill_1">
 
     <LinearLayout
-        android:layout_width="406dp"
-        android:layout_height="668dp"
+        android:layout_width="409dp"
+        android:layout_height="735dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,8 +44,8 @@
             android:textColor="#FF9800" />
 
         <LinearLayout
-            android:layout_width="371dp"
-            android:layout_height="wrap_content"
+            android:layout_width="361dp"
+            android:layout_height="324dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -67,12 +67,12 @@
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="175dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
+                    android:layout_height="175dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/sd_lang_1"
@@ -85,52 +85,71 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/sd_lang_3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="20dp"
-                        android:fontFamily="@font/avenir_regular"
-                        android:text="@string/sd_lang_3"
-                        android:textAlignment="viewStart"
-                        android:textSize="20sp" />
-
-                    <TextView
                         android:id="@+id/sd_lang_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="10dp"
                         android:fontFamily="@font/avenir_normal"
                         android:text="@string/sd_lang_2"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/sd_lang_4"
+                        android:id="@+id/sd_lang_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="20dp"
-                        android:fontFamily="@font/avenir_normal"
-                        android:text="@string/sd_lang_4"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_lang_3"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/sd_lang_res"
+                        android:id="@+id/sd_lang4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="30dp"
-                        android:layout_marginBottom="30dp"
-                        android:fontFamily="@font/avenir_normal"
-                        android:text="@string/sd_lang_res"
-                        android:textAlignment="center"
-                        android:textColor="@color/blueish" />
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_lang4"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_lang5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_lang5"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_lang6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_lang6"
+                        android:textSize="20sp" />
+
                 </LinearLayout>
             </ScrollView>
-        </LinearLayout>
 
+            <TextView
+                android:id="@+id/sd_lang_res"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/avenir_normal"
+                android:text="@string/sd_lang_res"
+                android:textAlignment="center"
+                android:textColor="@color/blueish" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

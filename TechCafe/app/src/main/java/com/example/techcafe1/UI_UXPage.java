@@ -69,18 +69,6 @@ public class UI_UXPage extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 open_UIX_Resource_5();
-        View interview1_button = findViewById(R.id.uiux_interview_1);
-        interview1_button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                open_uiux_interview1();
-            }
-        });
-        View interview2_button = findViewById(R.id.uiux_interview_2);
-        interview2_button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                open_uiux_interview2();
             }
         });
 
@@ -115,12 +103,6 @@ public class UI_UXPage extends AppCompatActivity {
     }
     public void open_UIX_Resource_5(){
         Intent intent = new Intent (this, UIX_Resource_5.class);
-    public void open_uiux_interview1(){
-        Intent intent = new Intent (this, UIUXBehavior.class);
-        startActivity(intent);
-    }
-    public void open_uiux_interview2(){
-        Intent intent = new Intent (this, UIXTechnical.class);
         startActivity(intent);
     }
 }
