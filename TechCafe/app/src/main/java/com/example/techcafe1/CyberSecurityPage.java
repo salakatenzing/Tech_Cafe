@@ -43,20 +43,6 @@ public class CyberSecurityPage extends AppCompatActivity {
                 open_CS_Skill_4();
             }
         });
-        View cyber_interview1_button = findViewById(R.id.cyber_interview_1);
-        cyber_interview1_button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                open_cyberInterview1();
-            }
-        });
-        View cyber_interview2_button = findViewById(R.id.cyber_interview_2);
-        cyber_interview2_button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                open_cyberInterview2();
-            }
-        });
         View button24 = findViewById(R.id.cs_topic_24);
         button24.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -86,7 +72,6 @@ public class CyberSecurityPage extends AppCompatActivity {
             }
         });
 
-
     }
     public void open_CS_Skill_1(){
         Intent intent = new Intent (this, CS_Skill_1.class);
@@ -102,14 +87,6 @@ public class CyberSecurityPage extends AppCompatActivity {
     }
     public void open_CS_Skill_4(){
         Intent intent = new Intent (this, CS_Skill_4.class);
-        startActivity(intent);
-    }
-    public void open_cyberInterview1(){
-        Intent intent = new Intent (this, CSScreening.class);
-        startActivity(intent);
-    }
-    public void open_cyberInterview2(){
-        Intent intent = new Intent (this, CSTechnical.class);
         startActivity(intent);
     }
     public void open_CS_Resource_1(){

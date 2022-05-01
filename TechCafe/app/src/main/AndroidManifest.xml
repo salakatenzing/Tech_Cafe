@@ -103,9 +103,6 @@
             android:name=".SD_Skill_5"
             android:exported="false" />
         <activity
-            android:name=".CS_Skill_5"
-            android:exported="false" />
-        <activity
             android:name=".UIX_Skill_1"
             android:exported="false" />
         <activity

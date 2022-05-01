@@ -394,69 +394,6 @@
                             android:layout_width="160dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="15dp"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="0%"
-                            android:textColor="#FFFFFF" />
-                    </LinearLayout>
-                </LinearLayout>
-
-
-            </LinearLayout>
-        </HorizontalScrollView>
-
-        <TextView
-            android:id="@+id/sd_interview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="25dp"
-            android:layout_marginBottom="0dp"
-            android:fontFamily="@font/avenir_heavy"
-            android:text="@string/sd_interview"
-            android:textSize="24sp" />
-
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="148dp"
-            android:layout_margin="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:fillViewport="true"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:scrollbars="none">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:id="@+id/uiux_interview_1"
-                    android:layout_width="160dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/block_topics"
-                    android:orientation="vertical">
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:background="@drawable/block_topics_top" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="@drawable/block_topics"
                             android:orientation="vertical">
@@ -498,7 +435,6 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="15dp"
                             android:layout_weight="1"
-
                             android:background="@drawable/block_topics"
                             android:orientation="vertical">
 
@@ -538,37 +474,6 @@
                             android:layout_width="160dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="15dp"
-                            android:fontFamily="@font/avenir_heavy"
-                            android:text="0%"
-                            android:textColor="#FFFFFF" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/uiux_interview_2"
-                    android:layout_width="160dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/block_topics"
-                    android:orientation="vertical">
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:background="@drawable/block_topics_top" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="@drawable/block_topics"
                             android:orientation="vertical">
@@ -824,7 +729,6 @@
                         </LinearLayout>
                     </LinearLayout>
                 </HorizontalScrollView>
-                </LinearLayout>
 
             </LinearLayout>
         </ScrollView>
