@@ -350,7 +350,7 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
-                            android:id="@+id/sd_topic_1"
+                            android:id="@+id/uix_topic_block_6"
                             android:layout_width="160dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="15dp"
@@ -390,7 +390,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/sd_topic_2"
+                            android:id="@+id/uix_topic_block_7"
                             android:layout_width="160dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="15dp"
@@ -430,47 +430,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/sd_topic_3"
-                            android:layout_width="160dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="15dp"
-                            android:layout_weight="1"
-                            android:background="@drawable/block_topics"
-                            android:orientation="vertical">
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="105dp"
-                                android:background="@drawable/block_topics_top" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp"
-                                android:gravity="center_vertical"
-                                android:orientation="horizontal"
-                                android:padding="5dp">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
-                                    android:textColor="#FFFFFF" />
-
-                                <TextView
-                                    android:layout_width="10dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:fontFamily="@font/avenir_heavy"
-                                    android:text="0%"
-                                    android:textColor="#FFFFFF" />
-                            </LinearLayout>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:id="@+id/sd_topic_4"
+                            android:id="@+id/uix_topic_block_8"
                             android:layout_width="160dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="15dp"
@@ -651,44 +611,7 @@
                             </LinearLayout>
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:id="@+id/uix_topic_31"
-                            android:layout_width="160dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="15dp"
-                            android:layout_weight="1"
-                            android:background="@drawable/block_topics"
-                            android:orientation="vertical">
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="105dp"
-                                android:background="@drawable/block_topics_top" />
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp"
-                                android:gravity="center_vertical"
-                                android:orientation="horizontal"
-                                android:padding="5dp">
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
-                                    android:textColor="#FFFFFF" />
 
-                                <TextView
-                                    android:layout_width="10dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:fontFamily="@font/avenir_heavy"
-                                    android:text="0%"
-                                    android:textColor="#FFFFFF" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
                         <LinearLayout
                             android:id="@+id/uix_topic_32"
                             android:layout_width="160dp"

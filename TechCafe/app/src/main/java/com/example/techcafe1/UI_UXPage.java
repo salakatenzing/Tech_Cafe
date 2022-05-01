@@ -36,6 +36,42 @@ public class UI_UXPage extends AppCompatActivity {
                 open_UIX_Skill_3();
             }
         });
+        View button4 = findViewById(R.id.uix_topic_block_4);
+        button4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Skill_4();
+            }
+        });
+        View button5 = findViewById(R.id.uix_topic_block_5);
+        button5.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Skill_5();
+            }
+        });
+        View button6 = findViewById(R.id.uix_topic_block_6);
+        button6.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Skill_6();
+            }
+        });
+        View button7 = findViewById(R.id.uix_topic_block_7);
+        button7.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Skill_7();
+            }
+        });
+        View button8 = findViewById(R.id.uix_topic_block_8);
+        button8.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                open_UIX_Skill_8();
+            }
+        });
+
         View button28 = findViewById(R.id.uix_topic_28);
         button28.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -57,13 +93,7 @@ public class UI_UXPage extends AppCompatActivity {
                 open_UIX_Resource_3();
             }
         });
-        View button31 = findViewById(R.id.uix_topic_31);
-        button31.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                open_UIX_Resource_4();
-            }
-        });
+
         View button32 = findViewById(R.id.uix_topic_32);
         button32.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -85,6 +115,26 @@ public class UI_UXPage extends AppCompatActivity {
         Intent intent = new Intent (this, UIX_Skill_3.class);
         startActivity(intent);
     }
+    public void open_UIX_Skill_4(){
+        Intent intent = new Intent (this, UIX_Skill_4.class);
+        startActivity(intent);
+    }
+    public void open_UIX_Skill_5(){
+        Intent intent = new Intent (this, UIX_Skill_5.class);
+        startActivity(intent);
+    }
+    public void open_UIX_Skill_6(){
+        Intent intent = new Intent (this, UIUXBehavior.class);
+        startActivity(intent);
+    }
+    public void open_UIX_Skill_7(){
+        Intent intent = new Intent (this, UIXTechnical.class);
+        startActivity(intent);
+    }
+    public void open_UIX_Skill_8(){
+        Intent intent = new Intent (this, SDReact.class);
+        startActivity(intent);
+    }
     public void open_UIX_Resource_1(){
         Intent intent = new Intent (this, UIX_Resource_1.class);
         startActivity(intent);
@@ -95,10 +145,6 @@ public class UI_UXPage extends AppCompatActivity {
     }
     public void open_UIX_Resource_3(){
         Intent intent = new Intent (this, UIX_Rsource_3.class);
-        startActivity(intent);
-    }
-    public void open_UIX_Resource_4(){
-        Intent intent = new Intent (this, UIX_Resource_4.class);
         startActivity(intent);
     }
     public void open_UIX_Resource_5(){
