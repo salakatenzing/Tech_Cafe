@@ -1,4 +1,5 @@
-<ScrollView
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
 
         <Space
             android:layout_width="match_parent"
@@ -58,73 +60,85 @@
             android:layout_marginRight="15dp"
             android:background="@drawable/field_info_block">
 
-            <TextView
-                android:id="@+id/textView18"
-                android:layout_width="379dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginRight="10dp"
-                android:text="@string/sdcodingq1"
-                android:textColor="#607D8B"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="22dp"
-                tools:layout_editor_absoluteY="923dp" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="379dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="12dp"
-                android:text="@string/sdcodingq2"
-                android:textColor="#607D8B"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="21dp"
-                tools:layout_editor_absoluteY="833dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="379dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="12dp"
-                android:text="@string/sdcodingq3"
-                android:textColor="#607D8B"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="21dp"
-                tools:layout_editor_absoluteY="981dp" />
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="379dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/sdcodingq1"
+                        android:textColor="#607D8B"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="22dp"
+                        tools:layout_editor_absoluteY="923dp" />
 
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="379dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="12dp"
-                android:text="@string/sdcodingq4"
-                android:textColor="#607D8B"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="22dp"
-                tools:layout_editor_absoluteY="1036dp" />
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="379dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/sdcodingq2"
+                        android:textColor="#607D8B"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="21dp"
+                        tools:layout_editor_absoluteY="833dp" />
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="379dp"
-                android:layout_height="131dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="12dp"
-                android:text="@string/sdcodingq5"
-                android:textColor="#607D8B"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="22dp"
-                tools:layout_editor_absoluteY="1095dp" />
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="379dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/sdcodingq3"
+                        android:textColor="#607D8B"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="21dp"
+                        tools:layout_editor_absoluteY="981dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="379dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/sdcodingq4"
+                        android:textColor="#607D8B"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="22dp"
+                        tools:layout_editor_absoluteY="1036dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="379dp"
+                        android:layout_height="131dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/sdcodingq5"
+                        android:textColor="#607D8B"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="22dp"
+                        tools:layout_editor_absoluteY="1095dp" />
+                </LinearLayout>
+            </ScrollView>
+
         </LinearLayout>
 
     </LinearLayout>
 
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resource1.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resource2.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resource3.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resources4.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_csscreening.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cstechnical.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cyber_security_page.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_login_page.xml" value="0.18385416666666668" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_main.xml" value="0.20606884057971014" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill1.xml" value="0.33" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill5.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdcoding_assesment.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdexperince.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdjava_script.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdjava_technical.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdjavapython.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdreact.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdsql.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdtechnical.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_software_dev_page.xml" value="0.18385416666666668" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_splash_screen.xml" value="0.20606884057971014" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uixtechnical.xml" value="0.26313405797101447" />
         <entry key="app/src/main/res/drawable-v24/background_gradient.xml" value="0.1025" />
         <entry key="app/src/main/res/drawable-v24/button_alternative.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1025" />
@@ -46,8 +69,6 @@
         <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.25755767822265624" />
         <entry key="app/src/main/res/layout/activity_lesson_page.xml" value="0.11399492381674659" />
         <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.17119565217391305" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_mission_statement.xml" value="0.13405797101449277" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_mission_statement.xml" value="0.16077898550724637" />
         <entry key="app/src/main/res/layout/activity_notifications_page.xml" value="0.16869300911854104" />
@@ -95,7 +116,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

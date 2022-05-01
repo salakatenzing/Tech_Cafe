@@ -468,8 +468,8 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00P
     <string name="uix_online_payed">Online Payed</string>
     <string name="uix_certification">Certification</string>
     <string name="uix_react">React</string>
-    <string name="sd_description">Software Development is computer science activities dedicated to the process of creating, designing, deploying, and supporting software.</string>
-    <string name="cs_desription">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. It refers to the body of technologies, processes, and practices designed to protect networks, devices, programs, and data from attack, damage, or unauthorized access. </string>
-
+    <string name="sd_description">Software development refers to activities dedicated to the process of creating, designing, deploying, and supporting software. </string>
+    <string name="cs_description">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. </string>
+    <string name="uix_description">UI/UX designing focuses on U - the user. UI focuses on the stylistic portion of the application. UX works with UI to determine the structure of the interface and the functionality.</string>
 
 </resources>
