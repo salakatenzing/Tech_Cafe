@@ -4,48 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SD_Skill_1">
-
+    tools:context=".UIX_Skill_4">
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="406dp"
+        android:layout_height="732dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.015">
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
-            android:id="@+id/cs_skill1"
+            android:id="@+id/sd_skill3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:fontFamily="@font/avenir_heavy"
-            android:text="@string/cs_skill1"
+            android:text="@string/uix_name"
             android:textAlignment="center"
             android:textSize="34sp" />
 
-        <com.google.android.youtube.player.YouTubePlayerView
-            android:id="@+id/cyber_1_vid"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_gravity="center" />
-
-        <Button
-            android:id="@+id/cyber_skill1_play"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="#EEEE"
-            android:text="@string/playBtn_Java"
-            android:textColor="#FF9800" />
 
         <LinearLayout
-            android:layout_width="361dp"
-            android:layout_height="324dp"
+            android:layout_width="367dp"
+            android:layout_height="561dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -53,115 +37,160 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/cs_coding_skill"
+                android:id="@+id/sd_datastruc_skill"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:fontFamily="@font/avenir_heavy"
                 android:paddingLeft="10dp"
-                android:text="@string/cs_coding_skill"
+                android:text="@string/sd_datastruc_skill"
                 android:textAlignment="center"
                 android:textColor="@color/orangeish"
                 android:textSize="24sp" />
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="165dp">
+                android:layout_height="392dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/cs_lang_1"
-                        android:layout_width="match_parent"
+                        android:id="@+id/sd_datastruc_1"
+                        android:layout_width="366dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:fontFamily="@font/avenir_normal"
-                        android:text="@string/cs_lang_1"
+                        android:text="@string/sd_datastruc_1"
                         android:textAlignment="textStart"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/cs_lang_2"
+                        android:id="@+id/sd_datastruc_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/avenir_normal"
-                        android:text="@string/cs_lang_2"
+                        android:text="@string/sd_datastruc_2"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/cs_lang_3"
+                        android:id="@+id/sd_datastruc_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/avenir_regular"
-                        android:text="@string/cs_lang_3"
+                        android:text="@string/sd_datastruc_3"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/cs_lang_4"
+                        android:id="@+id/sd_datastruc_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/avenir_regular"
-                        android:text="@string/cs_lang_4"
+                        android:text="@string/sd_datastruc_4"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/cs_lang_5"
+                        android:id="@+id/sd_datastruc_5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/avenir_regular"
-                        android:text="@string/cs_lang_5"
+                        android:text="@string/sd_datastruc_5"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/cs_lang_6"
+                        android:id="@+id/sd_datastruc_6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/avenir_regular"
-                        android:text="@string/cs_lang_6"
+                        android:text="@string/sd_datastruc_6"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/cs_lang_7"
+                        android:id="@+id/sd_datastruc_7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/avenir_regular"
-                        android:text="@string/cs_lang_7"
+                        android:text="@string/sd_datastruc_7"
                         android:textAlignment="viewStart"
                         android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_8"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_9"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_10"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/sd_datastruc_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/avenir_regular"
+                        android:text="@string/sd_datastruc_11"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
                 </LinearLayout>
             </ScrollView>
 
             <TextView
-                android:id="@+id/cs_lang_res"
+                android:id="@+id/sd_datastruc_res"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/avenir_normal"
-                android:text="@string/cs_lang_res"
+                android:text="@string/sd_datastruc_res"
                 android:textAlignment="center"
                 android:textColor="@color/blueish" />
+
         </LinearLayout>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

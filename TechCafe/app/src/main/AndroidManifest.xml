@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Techcafe1">
         <activity
+            android:name=".UIX_Skill_5"
+            android:exported="false" />
+        <activity
+            android:name=".UIX_Skill_4"
+            android:exported="false" />
+        <activity
             android:name=".UIX_Resource_5"
             android:exported="false" />
         <activity
