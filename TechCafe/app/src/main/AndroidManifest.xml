@@ -166,6 +166,9 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.Techcafe1"
             android:windowSoftInputMode="adjustPan">

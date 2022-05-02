@@ -40,7 +40,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/avenir_heavy"
-                android:text="@string/sd_stat_name"
+                android:text="@string/stat_name"
                 android:textAlignment="center"
                 android:textColor="@color/orangeish"
                 android:textSize="24sp" />
@@ -52,7 +52,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_stat1"
+                android:text="@string/sd_salary"
                 android:textSize="16sp" />
 
             <TextView
@@ -62,7 +62,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_stat2"
+                android:text="@string/sd_jobNum"
                 android:textSize="16sp" />
 
             <TextView
@@ -72,7 +72,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/avenir_normal"
-                android:text="@string/sd_stat3"
+                android:text="@string/sd_jobOutlook"
                 android:textSize="16sp" />
 
             <TextView
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="@string/bottom_stat_sd"
+                android:text="@string/bottom_stat"
                 android:textAlignment="center"
                 android:textColor="@color/blueish"
                 android:textSize="14sp" />
