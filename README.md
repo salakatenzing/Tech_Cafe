@@ -70,4 +70,4 @@ FireBase,
 Android Studio,
 Git,
 Figma,
-Sketchbook,,,
+Sketchbook
