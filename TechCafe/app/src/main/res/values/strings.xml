@@ -21,8 +21,8 @@
 
     //UI/UX Page strings
 
-    <string name="sd_stat_name">Statistics</string>
-    <string name="bottom_stat_sd">Check Stat</string>
+    <string name="stat_name">Statistics</string>
+    <string name="bottom_stat">Source: U.S. Bureau of Labor Statistics</string>
     <string name="sd_skills">Skills and Tech</string>
     <string name="sd_topic_2">Topic</string>
     <string name="sd_topic_3">Topic</string>
@@ -181,14 +181,20 @@
 
     //Updated Software Development Page Strings
     <string name="topic_name">Topic</string>
-
+    <string name="sd_salary">Average Salary: $110,140</string>
+    <string name="sd_jobNum">Number of Jobs (2020): 1,847, 900</string>
+    <string name="sd_jobOutlook">Job Outlook (2020-2030): 22% increase</string>
     //Updated Cyber Security Page Strings
     <string name="cs_skills">Skills and Tech</string>
-    <string name="cs_stat_name">Cyber Security</string>
-
+    <string name="cs_salary">Average Salary: $102, 600</string>
+    <string name="cs_jobNum">Number of Jobs (2020): 141, 200</string>
+    <string name="cs_jobOutlook">Job Outlook (2020-2030): 33% increase</string>
     //Updated UI/UX Page Strings
     <string name="uix_skills">Skills and Tech</string>
-    <string name="uix_stat_name">UI/UX</string>
+    <string name="uix_salary">Average Salary: $77, 200</string>
+    <string name="uix_jobNum">Number of Jobs (2020): 199, 400</string>
+    <string name="uix_jobOutlook">Job Outlook (2020-2030): 13% increase</string>
+
 
     //Hamsira Strings
     Check//SD Screening Interview Questions
@@ -433,10 +439,6 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00P
     //UI/UX Behavioral Header+Subheading
     <string name="uiuxhead">Behavioral Questions</string>
     <string name="uiuxsubhead">"Behavioral interviews allow the interviewer to get a much better understanding of you as a candidate."</string>
-
-    <string name="sd_stat1">Average Salary</string>
-    <string name="sd_stat2">Demand</string>
-    <string name="sd_stat3">Projected Growth</string>
 
     <string name="user_name">Username</string>
     <string name="edit_userName">edit name</string>
