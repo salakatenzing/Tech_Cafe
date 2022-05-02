@@ -22,72 +22,56 @@
             android:textAlignment="center"
             android:textSize="34sp"/>
 
-        <LinearLayout
-            android:layout_width="361dp"
-            android:layout_height="322dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/topics_block"
-            android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/uix_online_payed"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:fontFamily="@font/avenir_heavy"
-                android:paddingLeft="10dp"
-                android:textAlignment="center"
-                android:textColor="@color/orangeish"
-                android:textSize="24sp"
-                android:text="@string/uix_online_payed" />
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/topics_block"
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/uix_online_payed_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
+                <TextView
+                    android:id="@+id/uix_online_payed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/avenir_heavy"
+                    android:paddingLeft="10dp"
+                    android:text="@string/uix_online_payed"
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeish"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/uix_online_payed_2"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView"
-                />
+                <TextView
+                    android:id="@+id/uix_online_payed_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/avenir_normal"
+                    android:text="@string/uiuxPaid1"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/uix_online_payed_3"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
+                <TextView
+                    android:id="@+id/uix_online_payed_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="189dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/avenir_normal"
+                    android:text="@string/uiuxPaid2"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/uix_online_payed_4"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
-        </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
     </LinearLayout>
 
 

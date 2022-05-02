@@ -23,72 +23,90 @@
             android:textAlignment="center"
             android:textSize="34sp"/>
 
-        <LinearLayout
-            android:layout_width="361dp"
-            android:layout_height="322dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/topics_block"
-            android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/sd_free_online"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:fontFamily="@font/avenir_heavy"
-                android:paddingLeft="10dp"
-                android:textAlignment="center"
-                android:textColor="@color/orangeish"
-                android:textSize="24sp"
-                android:text="@string/sd_free_online" />
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/topics_block"
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/sd_free_online_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
+                <TextView
+                    android:id="@+id/sd_free_online"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/avenir_heavy"
+                    android:paddingLeft="10dp"
+                    android:text="@string/sd_free_online"
+                    android:textAlignment="center"
+                    android:textColor="@color/orangeish"
+                    android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/sd_free_online_2"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView"
-                />
+                <TextView
+                    android:id="@+id/sd_free_online_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/avenir_normal"
+                    android:text="@string/sdFree1"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/sd_free_online_3"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
+                <TextView
+                    android:id="@+id/sd_free_online_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/avenir_normal"
+                    android:text="@string/sdFree2"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/sd_free_online_4"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/avenir_normal"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/sd_free_online_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/avenir_normal"
+                    android:text="@string/sdFree3"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/sd_free_online_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/avenir_normal"
+                    android:text="@string/sdFree4"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/sd_free_online_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/avenir_normal"
+                    android:text="@string/sdFree5"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

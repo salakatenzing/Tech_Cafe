@@ -3,17 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< Updated upstream
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resource1.xml" value="0.26313405797101447" />
-        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resource2.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resource2.xml" value="0.33" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resource3.xml" value="0.26313405797101447" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resources4.xml" value="0.26313405797101447" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_csscreening.xml" value="0.26313405797101447" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cstechnical.xml" value="0.26313405797101447" />
-        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cyber_security_page.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cyber_security_page.xml" value="0.22" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_login_page.xml" value="0.18385416666666668" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_main.xml" value="0.20606884057971014" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_resource2.xml" value="0.33" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_resources1.xml" value="0.25" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_resources3.xml" value="0.5" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill1.xml" value="0.33" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill5.xml" value="0.26313405797101447" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdcoding_assesment.xml" value="0.26313405797101447" />
@@ -24,40 +26,15 @@
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdreact.xml" value="0.26313405797101447" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdsql.xml" value="0.26313405797101447" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdtechnical.xml" value="0.26313405797101447" />
-        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_software_dev_page.xml" value="0.18385416666666668" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_software_dev_page.xml" value="0.22" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_splash_screen.xml" value="0.20606884057971014" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_ui_uxpage.xml" value="0.26313405797101447" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_resource1.xml" value="0.25" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_resource2.xml" value="0.33" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_resource4.xml" value="0.33" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_resource5.xml" value="0.5" />
+        <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_rsource3.xml" value="0.33" />
         <entry key="..\:/Team2/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uixtechnical.xml" value="0.26313405797101447" />
-=======
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_resource1.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_skill1.xml" value="0.18645833333333334" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_skill2.xml" value="0.18802083333333333" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_skill3.xml" value="0.18645833333333334" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_skill4.xml" value="0.3283514492753623" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cs_skill5.xml" value="0.3283514492753623" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_cyber_security_page.xml" value="0.23822463768115942" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_home_page.xml" value="0.23822463768115942" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill1.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill2.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill3.xml" value="0.18802083333333333" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill4.xml" value="0.18802083333333333" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sd_skill5.xml" value="0.3283514492753623" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdcoding_assesment.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdexperince.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdjava_script.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_sdreact.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_software_dev_page.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_ui_uxpage.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_resource1.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_resource2.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_resource4.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_resource5.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_rsource3.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_skill1.xml" value="0.3283514492753623" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_skill2.xml" value="0.3283514492753623" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uix_skill3.xml" value="0.3283514492753623" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/activity_uixtechnical.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/cs389s2022team2/TechCafe/app/src/main/res/layout/toolbar.xml" value="0.36666666666666664" />
->>>>>>> Stashed changes
         <entry key="app/src/main/res/drawable-v24/background_gradient.xml" value="0.1025" />
         <entry key="app/src/main/res/drawable-v24/button_alternative.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1025" />
