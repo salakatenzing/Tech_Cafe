@@ -521,7 +521,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Books"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -559,7 +559,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Free"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -597,7 +597,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Paid"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView

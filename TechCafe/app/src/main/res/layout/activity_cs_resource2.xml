@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CS_Resource_2">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="44dp">
 
         <TextView
             android:id="@+id/cs_resource_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/cyber_security"
             android:layout_marginTop="30dp"
             android:fontFamily="@font/avenir_heavy"
+            android:text="@string/cyber_security"
             android:textAlignment="center"
-            android:textSize="34sp"/>
+            android:textSize="34sp" />
 
         <LinearLayout
-            android:layout_width="361dp"
-            android:layout_height="322dp"
+            android:layout_width="371dp"
+            android:layout_height="410dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
@@ -39,10 +39,10 @@
                 android:layout_marginBottom="30dp"
                 android:fontFamily="@font/avenir_heavy"
                 android:paddingLeft="10dp"
+                android:text="@string/cs_online_free"
                 android:textAlignment="center"
                 android:textColor="@color/orangeish"
-                android:textSize="24sp"
-                android:text="@string/cs_online_free" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/cs_online_free_1"
@@ -50,43 +50,42 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:fontFamily="@font/avenir_normal"
+                android:text="@string/csFree1"
                 android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/cs_online_free_2"
-                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/avenir_normal"
+                android:text="@string/csFree2"
                 android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView"
-                />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/cs_online_free_3"
-                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/avenir_normal"
+                android:text="@string/csFree3"
                 android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/cs_online_free_4"
-                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/avenir_normal"
+                android:text="@string/csFree4"
                 android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:text="TextView" />
+                android:textSize="20sp" />
         </LinearLayout>
     </LinearLayout>
 

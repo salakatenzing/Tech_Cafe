@@ -455,17 +455,17 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00P
     <string name="software_developement">Software Developement</string>
     <string name="sd_books">Books</string>
     <string name="sd_free_online">Online Free</string>
-    <string name="sd_online_payed">Online Payed</string>
+    <string name="sd_online_payed">Online Paid</string>
     <string name="sd_certification">Certification</string>
     <string name="cyber_security">Cyber Security</string>
     <string name="cs_books">Books</string>
     <string name="cs_online_free">Online Free</string>
-    <string name="cs_online_payed">Online Payed</string>
+    <string name="cs_online_payed">Online Paid</string>
     <string name="cs_certification">Certification</string>
     <string name="uix_name">UI/UX</string>
     <string name="uix_books">Books</string>
     <string name="uix_online_free">Online Free</string>
-    <string name="uix_online_payed">Online Payed</string>
+    <string name="uix_online_payed">Online Paid</string>
     <string name="uix_certification">Certification</string>
     <string name="uix_react">React</string>
     <string name="sd_description">Software development refers to activities dedicated to the process of creating, designing, deploying, and supporting software. </string>
@@ -473,5 +473,65 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00P
     <string name="uix_description">UI/UX designing focuses on the user, it focuses on the stylistic and functional portion of the application. </string>
     <string name="usernamesample">UserNameSample</string>
 
+//SD Resources
+        //Books
+    <string name="sdBook1">Zero Bugs: and Program Faster by Kate Thompson</string>
+    <string name="sdBook2">The Pragmatic Programmer: From Journeyman to Master (2nd Ed.) by Andrew Hunt and David Thomas</string>
+    <string name="sdBook3">Agile Software Development by Robert C. Martin</string>
+    <string name="sdBook4">Object-oriented analysis and design by Grady Booch</string>
+    <string name="sdBook5">Clean Code by Robert C. Martin</string>
+    <string name="sdBook6">Cracking the Coding Interview: 189 Programming Questions and Solutions (6th Ed.) by Gayle Laakmann McDowell</string>
+    <string name="sdBook7">The Algorithm Design Manual by Steven S. Skiena</string>
+        //Free
+    <string name="sdFree1">Software Development Courses for Beginners on <a href="freecodecamp.org/news/learn-programming-free-software-development-courses-for-beginners/">freeCodeCamp</a></string>
+    <string name="sdFree2">Learn Software Development for free at <a href="https://alison.com/courses/software-development">Alison</a></string>
+    <string name="sdFree3">Confused on where to start? Find which path to take to have your dream position with the <a href="https://github.com/kamranahmedse/developer-roadmap">Developer Roadmap created by Kamran Ahmed</a> </string>
+    <string name="sdFree4">Programming rules for developers on <a href="https://muldoon.cloud/programming/2020/04/17/programming-rules-thumb.html">The Other Mickey Wiki</a></string>
+    <string name="sdFree5">"Improve your development skills by training with your peers on code kata that continuously push your coding practice" at <a href="https://www.codewars.com/">CodeWars</a></string>
+        //Paid
+    <string name="sdPaid1">Clean Code with Java:Learn Simple Design, Refactoring, and TDD on <a href="https://cutt.ly/8GAgXHA">Udemy</a></string>
+    <string name="sdPaid2">Journey into tech with <a href="https://www.nucamp.co/">NuCamp</a></string>
+    <string name="sdPaid3">Get access to courses, real world information, and more with a <a href="https://www.oreilly.com/">O Reilly Media Membership</a></string>
+    <string name="sdPaid4">Newsletter to stay up to date: <a href="https://newsletter.pragmaticengineer.com/"> The Pragmatic Engineer</a></string>
+        //React
+
+    //CS Resources
+        //Books
+    <string name="csBook1">Hacking: The Art of Exploitation (2nd Ed.) by Jon Erickson</string>
+    <string name="csBook2">Practical Malware Analysis by Micheal Sikorski</string>
+    <string name="csBook3">CompTIA Network+ Certification All-in-One Exam Guide (7th Ed.) by Mike Meyers</string>
+    <string name="csBook4">Cybersecurity Essentials by Charles J. Brooks, Christopher Grow, Philip Craig, and Donald Short</string>
+    <string name="csBook5">The Pentester Blueprint: Starting a Career as an Ethical Hacker by Phillip Wylie and Kim Crawley</string>
+    <string name="csBook6">The Web Application Hacker\'s Handbook by Dafydd Stuttard and Marcus Pinto</string>
+    <string name="csBook7">The Art of Software Security Assessment by John McDonald, Justin Schuh, and Mark Dowd </string>
+        //Free
+    <string name="csFree1">Build your hacking skills - ethically - at:<a href="https://cutt.ly/KGI5HR9">Ethical Hacking for Beginners</a></string>
+    <string name="csFree2">Need an intro? Learn the basics using:<a href="https://www.simplilearn.com/learn-cyber-security-basics-skillup">Introduction to Cybersecurity</a></string>
+    <string name="csFree3">Free Cybersecurity Library:<a href="https://www.cybrary.it/">Cybrary</a></string>
+    <string name="csFree4">Buidl your skills at:<a href="https://portswigger.net/web-security">PotSwigger Web Security Academy</a></string>
+        //Paid
+    <string name="csPaid1">Get your MicroMasters in Cybersecurity at <a href="https://www.edx.org/micromasters/ritx-cybersecurity">RIT</a></string>
+    <string name="csPaid2">Get your MicroBachelor in Cybersecurity Fundamentals at <a href="https://www.edx.org/microbachelors/nyux-cybersecurity-fundamentals">NYU</a></string>
+    <string name="csPaid3">The Complete Cyber Security Course: Network Security! Get started today at <a href="https://www.udemy.com/course/network-security-course/">Udemy</a></string>
+    <string name="csPaid4">Cyber Security Program for Post Graduates at <a href="https://www.simplilearn.com/pgp-cyber-security-certification-training-course-in-nyc-city">SimpliLearn</a></string>
+    //UIUX Resources
+        //Books
+    <string name="uiuxBook1">The Design of Everyday Things by Don Norman</string>
+    <string name="uiuxBook2">UX for Beginners: a crash course in 100 short lessons by Joel Marsh</string>
+    <string name="uiuxBook3">Inspired: how to create tech products customers love by Marty Cagan</string>
+    <string name="uiuxBook4">Designing Interfaces: patterns for effective interaction design by Jenifer Tidwell, Charles Brewer, and Aynne Valencia</string>
+    <string name="uiuxBook5">A Project Guide to UX Design: for user experience designers in the field or the making by Carolyn Chandler</string>
+    <string name="uiuxBook6">Just enough research by Erika Hall</string>
+    <string name="uiuxBook7">UX Research: practical techniques for designing better products by Brad Nunally, David Farkas</string>
+        //Free
+    <string name="uiuxFree1">UI UX Bookclub on <a href="https://memorisely-community.slack.com/">Slack</a></string>
+    <string name="uiuxFree2">Learn UX Fundamentals at <a href="https://www.thegymnasium.com/courses/GYM/103/0/about">The Gymnasium</a></string>
+    <string name="uiuxFree3">DesignTalk Free Events and Webinars by <a href="https://www.invisionapp.com/events">InVision</a></string>
+    <string name="uiuxFree4">Caltech Introduction to User Experience Design on <a href="https://www.coursera.org/learn/user-experience-design">CourseEra</a></string>
+    <string name="uiuxFree5">Figma Tutorials on their <a href="https://www.youtube.com/c/Figmadesign/videos"> YouTube account</a></string>
+    <string name="uiuxFree6">FreeCodeCamp <a href="https://www.freecodecamp.org/news/tag/ui-design/"> UI Tag</a></string>
+        //Paid
+    <string name="uiuxPaid1">"Get started in the fast-growing field of user experience (UX) design with a professional certificate developed by Google. Learn the foundations of UX design, including empathizing with users, building wireframes and prototypes, and conducting research to test your designs." Get started at <a href="https://cutt.ly/oGAs2rC">Google</a></string>
+    <string name="uiuxPaid2">"In this project-based certificate program, you’ll get firsthand experience researching, brainstorming, prototyping, and user testing. You’ll learn to apply core human-centered design skills and cutting-edge UX tools to create usable, accessible, desirable websites and mobile apps." <a href="https://info.newschool.edu/user-centered-design-certificate"> The New School</a></string>
 
 </resources>
