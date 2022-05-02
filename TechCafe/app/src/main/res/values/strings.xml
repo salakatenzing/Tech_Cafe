@@ -536,4 +536,18 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00P
     <string name="uiuxPaid1">"Get started in the fast-growing field of user experience (UX) design with a professional certificate developed by Google. Learn the foundations of UX design, including empathizing with users, building wireframes and prototypes, and conducting research to test your designs." Get started at <a href="https://cutt.ly/oGAs2rC">Google</a></string>
     <string name="uiuxPaid2">"In this project-based certificate program, you’ll get firsthand experience researching, brainstorming, prototyping, and user testing. You’ll learn to apply core human-centered design skills and cutting-edge UX tools to create usable, accessible, desirable websites and mobile apps." <a href="https://info.newschool.edu/user-centered-design-certificate"> The New School</a></string>
 
+    //UI/UX values
+    <string name="uix_topicname_1">Languages</string>
+    <string name="uix_topicname_2">Design</string>
+    <string name="uix_topicname_3">Protocol</string>
+    <string name="uix_topicname_4">Data Types</string>
+    <string name="uix_topicname_5">Algorithms</string>
+    <string name="uix_topicname_6">Behavioral</string>
+    <string name="uix_topicname_7">Technical</string>
+    <string name="uix_topicname_8">ReactJS</string>
+    <string name="uix_topicname_9">Books</string>
+    <string name="uix_topicname_10">Online(Free)</string>
+    <string name="uix_topicname_11">Online(Payed)</string>
+    <string name="uix_topicname_12">React</string>
+
 </resources>
