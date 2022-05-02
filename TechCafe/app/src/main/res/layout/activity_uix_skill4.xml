@@ -26,15 +26,30 @@
             android:textAlignment="center"
             android:textSize="34sp" />
 
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/FE_4_vid"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/FE_skill4_play"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EEEE"
+            android:text="@string/playBtn_Java"
+            android:textColor="#FF9800"
+            android:layout_gravity="center"/>
+
 
         <LinearLayout
-            android:layout_width="367dp"
-            android:layout_height="561dp"
+            android:layout_width="361dp"
+            android:layout_height="324dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/topics_block"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
             <TextView
                 android:id="@+id/sd_datastruc_skill"
@@ -51,7 +66,7 @@
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="392dp">
+                android:layout_height="155dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"

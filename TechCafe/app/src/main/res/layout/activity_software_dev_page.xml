@@ -155,7 +155,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Languages"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -196,7 +196,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Algorithms"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -236,7 +236,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Data Structures"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -276,7 +276,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Database"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -316,7 +316,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Testing"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -388,7 +388,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="General questions"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -428,7 +428,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Database "
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -468,7 +468,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Personal"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -508,7 +508,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Assessment1"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -547,7 +547,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Python1"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -586,7 +586,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Java1"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -625,7 +625,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Javascript1"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -664,7 +664,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="Screening"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
