@@ -304,7 +304,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="React"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -636,7 +636,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="React"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
