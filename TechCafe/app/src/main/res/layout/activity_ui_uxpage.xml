@@ -96,6 +96,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
 
+
                 <TextView
                     android:id="@+id/uix_skills"
                     android:layout_width="match_parent"
@@ -153,7 +154,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="@string/uix_topicname_1"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -194,7 +195,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="@string/uix_topicname_2"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -234,7 +235,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="@string/uix_topicname_3"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -274,7 +275,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="@string/uix_topicname_4"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -314,7 +315,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="React"
+                                    android:text="@string/uix_topicname_5"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -386,7 +387,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="@string/uix_topicname_6"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -426,7 +427,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="@string/uix_topicname_7"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -466,7 +467,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="@string/topic_name"
+                                    android:text="@string/uix_topicname_8"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -531,7 +532,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="Books"
+                                    android:text="@string/uix_topicname_9"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -569,7 +570,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="Free"
+                                    android:text="@string/uix_topicname_10"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -607,7 +608,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="Paid"
+                                    android:text="@string/uix_topicname_11"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView
@@ -646,7 +647,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/avenir_heavy"
-                                    android:text="React"
+                                    android:text="@string/uix_topicname_12"
                                     android:textColor="#FFFFFF" />
 
                                 <TextView

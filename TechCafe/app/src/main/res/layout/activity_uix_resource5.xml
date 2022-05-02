@@ -78,7 +78,7 @@
                 android:fontFamily="@font/avenir_normal"
                 android:textAlignment="textStart"
                 android:textSize="20sp"
-                android:text="Cslasse"
+                android:text="Classes"
                 />
 
             <TextView
