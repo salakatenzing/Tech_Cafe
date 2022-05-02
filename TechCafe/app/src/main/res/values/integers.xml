@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <item name="sd_progress_percent" type="id" />
+    <integer name="sd_progress_percent">10</integer>
 </resources>

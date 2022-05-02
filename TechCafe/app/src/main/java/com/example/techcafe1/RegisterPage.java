@@ -7,9 +7,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class RegisterPage extends AppCompatActivity {
     private FirebaseAuth mAuth;
@@ -18,6 +25,10 @@ public class RegisterPage extends AppCompatActivity {
     EditText nameUserEntry;
     EditText passwordUserEntry;
     Button button_register;
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
+    public static final String KEY_email = "email";
+    public static final String KEY_name = "name";
+
 
 
     @Override
@@ -64,6 +75,72 @@ public class RegisterPage extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
+
+                            Map<String, Object> user_data = new HashMap<>();
+                            user_data.put(KEY_email, newUserEmail);
+                            user_data.put(KEY_name, newUsersName);
+                            db.collection("users").document(newUserEmail).set(user_data);
+
+
+
+                            //creating a Firestore 'topics' database to track progress
+                            //Software Developement topics {5,8,3}
+                            Map<String, Object> user_progress_sd = new HashMap<>();
+                            user_progress_sd.put("SD-ProgressBar", 0);
+                            user_progress_sd.put("Progress-SD-1-1", false);
+                            user_progress_sd.put("Progress-SD-1-2", false);
+                            user_progress_sd.put("Progress-SD-1-3", false);
+                            user_progress_sd.put("Progress-SD-1-4", false);
+                            user_progress_sd.put("Progress-SD-1-5", false);
+                            user_progress_sd.put("Progress-SD-2-1", false);
+                            user_progress_sd.put("Progress-SD-2-2", false);
+                            user_progress_sd.put("Progress-SD-2-3", false);
+                            user_progress_sd.put("Progress-SD-2-4", false);
+                            user_progress_sd.put("Progress-SD-2-5", false);
+                            user_progress_sd.put("Progress-SD-2-6", false);
+                            user_progress_sd.put("Progress-SD-2-7", false);
+                            user_progress_sd.put("Progress-SD-2-8", false);
+                            user_progress_sd.put("Progress-SD-3-1", false);
+                            user_progress_sd.put("Progress-SD-3-2", false);
+                            user_progress_sd.put("Progress-SD-3-3", false);
+                            db.collection("users").document(newUserEmail).collection("user_progress").document("Progress SD").set(user_progress_sd);
+
+                            //Cybersecurity Topics {4,3,3}
+                            Map<String, Object> user_progress_cyber = new HashMap<>();
+                            user_progress_cyber.put("Cyber-ProgressBar", 0);
+                            user_progress_cyber.put("Progress-Cyber-1-1", false);
+                            user_progress_cyber.put("Progress-Cyber-1-2", false);
+                            user_progress_cyber.put("Progress-Cyber-1-3", false);
+                            user_progress_cyber.put("Progress-Cyber-1-4", false);
+                            user_progress_cyber.put("Progress-Cyber-2-1", false);
+                            user_progress_cyber.put("Progress-Cyber-2-2", false);
+                            user_progress_cyber.put("Progress-Cyber-2-3", false);
+                            user_progress_cyber.put("Progress-Cyber-3-1", false);
+                            user_progress_cyber.put("Progress-Cyber-3-2", false);
+                            user_progress_cyber.put("Progress-Cyber-3-3", false);
+                            db.collection("users").document(newUserEmail).collection("user_progress").document("Progress CyberSecurity").set(user_progress_cyber);
+
+                            //UI/UX Topics {5,3,4}
+                            Map<String, Object> user_progress_UIUX = new HashMap<>();
+                            user_progress_UIUX.put("UIUX-ProgressBar", 0);
+                            user_progress_UIUX.put("Progress-UIUX-1-1", false);
+                            user_progress_UIUX.put("Progress-UIUX-1-2", false);
+                            user_progress_UIUX.put("Progress-UIUX-1-3", false);
+                            user_progress_UIUX.put("Progress-UIUX-1-4", false);
+                            user_progress_UIUX.put("Progress-UIUX-1-5", false);
+                            user_progress_UIUX.put("Progress-UIUX-2-1", false);
+                            user_progress_UIUX.put("Progress-UIUX-2-2", false);
+                            user_progress_UIUX.put("Progress-UIUX-2-3", false);
+                            user_progress_UIUX.put("Progress-UIUX-3-1", false);
+                            user_progress_UIUX.put("Progress-UIUX-3-2", false);
+                            user_progress_UIUX.put("Progress-UIUX-3-3", false);
+                            user_progress_UIUX.put("Progress-UIUX-3-4", false);
+                            db.collection("users").document(newUserEmail).collection("user_progress").document("Progress UI-UX").set(user_progress_UIUX);
+
+
+
+
+
                             updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
