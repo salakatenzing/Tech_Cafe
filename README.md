@@ -54,6 +54,7 @@ https://docs.google.com/spreadsheets/d/1xe1ZhdKVEqigu8fN1XMbvOK1r49E3Tp-IaQc-AQ4
 * Sprint planning: https://docs.google.com/document/d/1VTnqwYYBviYGkvxffYCFEMmfP-2tu-GMHc8i7O5Bp-0/edit 
 * Scrums: https://docs.google.com/document/d/1HOltmDP-ih8e6ACRFdFS7yeuz6D4QdVi9shlhCcir9Y/edit?usp=sharing
 * Sprint demo - video and apk (or equivalent)
+* https://www.youtube.com/watch?v=PxW5Wpgmvjo
 * Spring retrospective: https://docs.google.com/document/d/1ZRkMfVi-ZugQ2ZCRU8WkOQf9HRElWP8aDfMRqBm5DX0/edit
 
 **Final presentation**
