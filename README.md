@@ -13,6 +13,9 @@ Tumar Kussainov
 
 **App description**
 
+## Demo
+https://user-images.githubusercontent.com/20289725/191400950-65e91dd4-85bd-4e36-bd78-7ec0b0203aa9.mp4
+
 **Idea Proposal**
 
 Link to our Idea Proposal: 
